@@ -1,6 +1,6 @@
 # A collection of resources on machine learning, data processing and related areas
 
-### Lists
+### Python
 
 * Top 10 Python libraries of 2017: https://tryolabs.com/blog/2017/12/19/top-10-python-libraries-of-2017/
 * https://github.com/vinta/awesome-python - A curated list of awesome Python frameworks, libraries, software and resources
