@@ -321,10 +321,10 @@ Other:
 ### Books
 
 * Free data science books:
+  * https://web.stanford.edu/~hastie/ElemStatLearn/ - The Elements of Statistical Learning: Data Mining, Inference, and Prediction
+  * http://www.statlearning.com/ - An Introduction to Statistical Learning
+  * https://d2l.ai/ - Dive into Deep Learning
   * https://www.inferentialthinking.com/ - Computational and Inferential Thinking. The Foundations of Data Science
   * http://www.cs.cornell.edu/jeh/book.pdf - Foundations of Data Science
-  * http://www-bcf.usc.edu/~gareth/ISL/ - An Introduction to Statistical Learning
   * https://otexts.org/fpp2/ - Forecasting: Principles and Practice
-
-* Other books:
-  * https://github.com/christophM/interpretable-ml-book
+  * https://github.com/christophM/interpretable-ml-book - Interpretable machine learning
