@@ -97,16 +97,19 @@ Web scrapping
 
 ### Computing
 
-* https://github.com/dask/dask (6.2k) Parallel computing with task scheduling
+* https://github.com/dask/dask (6.2k): Parallel computing with task scheduling
 * https://github.com/dask/distributed (939): distributed dask
 * https://github.com/ray-project/ray A system for parallel and distributed Python that unifies the ML ecosystem (similar to Dask)
 * https://github.com/databricks/spark-sklearn Scikit-learn integration package for Spark
-* https://chryswoods.com/parallel_python/index.html - Book: Parallel Programming with Python
-* asyncio
+* https://github.com/arrayfire/arrayfire (2.9k): a general purpose GPU library
+
+Books:
+* https://chryswoods.com/parallel_python/index.html - Parallel Programming with Python
 
 ### Video
 
 * https://github.com/Zulko/moviepy - Video editing with Python
+* https://github.com/iperov/DeepFaceLab (12k): DeepFaceLab is a tool that utilizes machine learning to replace faces in videos.
 
 ### Images
 
