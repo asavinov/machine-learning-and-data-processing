@@ -6,12 +6,15 @@
 * https://github.com/vinta/awesome-python - A curated list of awesome Python frameworks, libraries, software and resources
 * Checklist for Python libraries APIs: http://python.apichecklist.com/
 
-### Persistence and serialization
+### Formats, persistence and serialization
 
 * https://github.com/wesm/feather  fast, interoperable binary data frame storage for Python, R, and more powered by Apache Arrow
 * https://github.com/apache/arrow standardized language-independent columnar memory format for flat and hierarchical data
 * https://github.com/Blosc/bcolz A columnar data container that can be compressed
 * cloudpickle: serialize Python constructs not supported by the default pickle module from the Python standard library (lambdas etc.)
+* pytables (905): https://github.com/PyTables/PyTables - A Python package to manage extremely large amounts of data http://www.pytables.org
+  * based on hdf5 https://www.hdfgroup.org/ HDF supports n-dimensional datasets and each element in the dataset may itself be a complex object.
+* h5py (1.3k): https://github.com/h5py/h5py HDF5 for Python -- The h5py package is a Pythonic interface to the HDF5 binary data format
 
 ### Authentication, Authorization, Security
 
@@ -94,7 +97,8 @@ Web scrapping
 
 ### Computing
 
-* https://github.com/dask/dask Parallel computing with task scheduling
+* https://github.com/dask/dask (6.2k) Parallel computing with task scheduling
+* https://github.com/dask/distributed (939): distributed dask
 * https://github.com/ray-project/ray A system for parallel and distributed Python that unifies the ML ecosystem (similar to Dask)
 * https://github.com/databricks/spark-sklearn Scikit-learn integration package for Spark
 * https://chryswoods.com/parallel_python/index.html - Book: Parallel Programming with Python
@@ -107,7 +111,7 @@ Web scrapping
 ### Images
 
 * scikit-image: for image io and transforms
-* Pillow
+* https://github.com/python-pillow/Pillow (7k) PIL is the Python Imaging Library
 * OpenCV: for images
 * YOLO: https://pjreddie.com/darknet/yolo/
   * How to train YOLO to detect your own objects: https://timebutt.github.io/static/how-to-train-yolov2-to-detect-custom-objects/
@@ -137,6 +141,7 @@ Audio processing libraries:
 * pyAudioAnalysis: https://github.com/tyiannak/pyAudioAnalysis (~2.4k) Python Audio Analysis Library: Feature Extraction, Classification, Segmentation and Applications
 * https://github.com/bmcfee/resampy (~100) http://resampy.readthedocs.io/ Efficient sample rate conversion in python http://resampy.readthedocs.io/
 * https://github.com/keunwoochoi/kapre (~400) keras audio preprocessor that let you calculate STFT/melspectrograms directly in your keras model on the fly without saving them in your storage
+* https://github.com/facebookresearch/wav2letter (4.4k) Automatic Speech Recognition Toolkit
 
 Other
 * https://github.com/AddictedCS/soundfingerprinting (~350) audio acoustic fingerprinting fingerprinting in C# (advertising etc. - not speech)
@@ -292,7 +297,7 @@ Visualizations and dashboards:
 
 * Data structures:
   * https://github.com/mahmoud/boltons boltons should be builtins
-  * https://github.com/pytoolz/toolz List processing tools and functional utilities
+  * https://github.com/pytoolz/toolz List processing tools and functional utilities (replaces itertools and functools)
   * Zict: Composable Mutable Mappings
   * HeapDict: a heap with decrease-key and increase-key operations
   * sortedcontainers: Python Sorted Container Types: SortedList, SortedDict, and SortedSet
