@@ -1,110 +1,8 @@
 # A collection of resources on machine learning, data processing and related areas
 
-### Python
+Table of contents (TBD)
 
-* Top 10 Python libraries of 2017: https://tryolabs.com/blog/2017/12/19/top-10-python-libraries-of-2017/
-* https://github.com/vinta/awesome-python - A curated list of awesome Python frameworks, libraries, software and resources
-* Checklist for Python libraries APIs: http://python.apichecklist.com/
-
-### Formats, persistence and serialization
-
-* https://github.com/wesm/feather  fast, interoperable binary data frame storage for Python, R, and more powered by Apache Arrow
-* https://github.com/apache/arrow standardized language-independent columnar memory format for flat and hierarchical data
-* https://github.com/Blosc/bcolz A columnar data container that can be compressed
-* cloudpickle: serialize Python constructs not supported by the default pickle module from the Python standard library (lambdas etc.)
-* pytables (905): https://github.com/PyTables/PyTables - A Python package to manage extremely large amounts of data http://www.pytables.org
-  * based on hdf5 https://www.hdfgroup.org/ HDF supports n-dimensional datasets and each element in the dataset may itself be a complex object.
-* h5py (1.3k): https://github.com/h5py/h5py HDF5 for Python -- The h5py package is a Pythonic interface to the HDF5 binary data format
-
-### Authentication, Authorization, Security
-
-* https://github.com/dwyl/learn-json-web-tokens/ -  Learn how to use JSON Web Token (JWT) to secure your next Web App! (Tutorial/Example with Tests!!)
-
-### Linux and OS
-
-* https://0xax.gitbooks.io/linux-insides/content/ - Linux inside
-* https://john-millikin.com/unix-syscalls - UNIX Syscalls
-
-### Platform and servers
-
-Load balancing:
-* ngnix
-* haproxy - http://www.haproxy.org/
-* GLB Director - https://github.com/github/glb-director - Github, Layer 4 load balancer
-* https://code.fb.com/open-source/open-sourcing-katran-a-scalable-network-load-balancer/ - Facebook Katran
-* https://cloudplatform.googleblog.com/2016/03/Google-shares-software-network-load-balancer-design-powering-GCP-networking.html - Google
-
-Dockerized automated https reverse proxy:
-* https://github.com/jwilder/nginx-proxy Automated nginx proxy for Docker containers using docker-gen
-  * https://github.com/JrCs/docker-letsencrypt-nginx-proxy-companion LetsEncrypt companion container for nginx-proxy 
-* https://traefik.io/ https://github.com/containous/traefik/ - cloud native edge router. a modern HTTP reverse proxy and load balancer that makes deploying microservices easy
-* https://github.com/SteveLTN/https-portal A fully automated HTTPS server powered by Nginx, Let's Encrypt and Docker. 
-* https://github.com/sozu-proxy/sozu HTTP reverse proxy, configurable at runtime, fast and safe, built in Rust.
-* https://caddyserver.com/docs/automatic-https https://github.com/mholt/caddy (free if you build it yourself) Caddy automatically enables HTTPS for all your sites, given that some reasonable criteria. Fast, cross-platform HTTP/2 web server with automatic HTTPS 
-* https://github.com/Valian/docker-nginx-auto-ssl Docker image for automatic generation of SSL certs using Let's encrypt and Open Resty 
-
-Discussions:
-* https://news.ycombinator.com/item?id=17984970
-
-Service registry and orchestrator:
-* etcd
-* consul
-
-HTTP and REST:
-* https://github.com/pallets/flaskmicro framework for building web applications. https://www.palletsprojects.com/p/flask/
-
-Logging and tracing
-* fast logging library for Go Zap: https://github.com/uber-go/zap
-* http://opentracing.io/ - OpenTracing standard
-* CNCF Jaeger, a Distributed Tracing System  https://github.com/jaegertracing/jaeger https://uber.github.io/jaeger/ https://jaegertracing.io/
-* Lightstep https://github.com/lightstep/lightstep-tracer-go
-* Application tracing system for Go, based on Google's Dapper. (OpenTracing) https://sourcegraph.com https://github.com/sourcegraph/appdash
-
-### Async, event buses, actor model, job queues etc.
-
-* https://github.com/celery/celery (~13k) Distributed Task Queue http://celeryproject.org/
-* http://www.gevent.org/ https://github.com/gevent/gevent (~4.7k) - Coroutine-based concurrency library
-* http://eventlet.net/ https://github.com/eventlet/eventlet/ (~800) - Concurrent networking library
-
-Web frameworks (concurrent, async):
-* http://www.tornadoweb.org https://github.com/tornadoweb/tornado (~18k) - web framework and asynchronous networking library
-* https://github.com/Pylons/pyramid (~3k) web framework https://trypyramid.com/
-
-Actor models:
-* (~1.8k) https://github.com/quantmind/pulsar/ Event driven concurrent framework for Python https://quantmind.github.io/pulsar/index.html 
-Pulsar implements two layers of components on top of python asyncio module: the actor layer and the application framework.
-* (~800) https://github.com/jodal/pykka Pykka is a Python implementation of the actor model, which makes it easier to build concurrent applications
-* (~80) https://github.com/kquick/Thespian Python Actor concurrency library
-* https://gitlab.com/python-actorio/actorio
-
-### Data integration, ETL, data integration
-
-* (13k) https://github.com/apache/incubator-airflow https://airflow.apache.org programmatically author, schedule, and monitor workflows as directed acyclic graphs (DAGs) of tasks
-* (12k) https://github.com/spotify/luigi build complex pipelines of (long-running) batch jobs like Hadoop jobs, Spark jobs, dumping data to/from databases, running machine learning algorithms, Python snippet etc. The dependency graph is specified within Python (not XML or JSON).
-* (~2.7k) https://github.com/azkaban/azkaban Azkaban workflow manager
-* Oozie 
-* (~750) https://github.com/d6t/d6tflow - Python library for building highly effective data science workflows (on top of luigi)
-
-ETL:
-* (~1k) https://github.com/python-bonobo/bonobo https://www.bonobo-project.org/ Transform Load Extract for Python 3.5+ 
-* (~1.2k) https://github.com/mara/data-integration A lightweight opinionated ETL framework, halfway between plain scripts and Apache Airflow
-
-Stream processing:
-* (1.5k) https://github.com/nerevu/riko A Python stream processing engine modeled after Yahoo! Pipes
-
-Web scrapping
-* (~34k) https://github.com/scrapy/scrapy - create spiders bots that scan website pages and collect structured data
-
-### Computing
-
-* https://github.com/dask/dask (6.2k): Parallel computing with task scheduling
-* https://github.com/dask/distributed (939): distributed dask
-* https://github.com/ray-project/ray A system for parallel and distributed Python that unifies the ML ecosystem (similar to Dask)
-* https://github.com/databricks/spark-sklearn Scikit-learn integration package for Spark
-* https://github.com/arrayfire/arrayfire (2.9k): a general purpose GPU library
-
-Books:
-* https://chryswoods.com/parallel_python/index.html - Parallel Programming with Python
+## Analysis of different types of data
 
 ### Video
 
@@ -165,6 +63,94 @@ Lists:
 * https://github.com/astorfi/Deep-Learning-NLP
 * https://github.com/brianspiering/awesome-dl4nlp
 
+### Time series and forecasting
+
+Books and articles:
+* ARIMA Model – Complete Guide to Time Series Forecasting in Python: https://www.machinelearningplus.com/time-series/arima-model-time-series-forecasting-python
+
+Implementations:
+* Prophet (Facebook): https://facebook.github.io/prophet/ https://github.com/facebook/prophet
+* Forecast (R)
+
+Stock price forecasting:
+* (~600) https://github.com/huseinzol05/Stock-Prediction-Models
+* (~1300) https://github.com/borisbanushev/stockpredictionai
+
+### Spatial data
+
+* (1.9k) https://github.com/geopandas/geopandas Python tools for geographic data
+
+### Graphs, RDFs etc.
+
+Graph stores:
+* (~1400) A distributed knowledge graph store https://github.com/eBay/beam 
+* (~1530) A large-scale entity and relation database supporting aggregation of properties https://github.com/gchq/Gaffer
+
+Databases:
+* (~10k) Dgraph Fast, Distributed Graph DB https://dgraph.io https://dgraph.io/
+* Neo4j
+* (~2.5k) Janus Graph https://janusgraph.org/ https://github.com/janusgraph/janusgraph
+  JanusGraph [2] has support for a lot of different backends, built by the old team behind TitanDB
+* (~8.2k) https://github.com/arangodb/arangodb ArangoDB is a native multi-model database with flexible data models for documents, graphs, and key-values. 
+  Best open source graph database is ArrangoDB they have master to master cluster
+
+Visualizations and dashboards:
+* graphviz
+
+
+## Data and knowledge engineering
+
+### Feature engineering
+
+Lists:
+* https://github.com/MaxHalford/xam - Personal data science and machine learning toolbox
+* https://github.com/xiaoganghan/awesome-feature-engineering
+
+Time series:
+* (~4.1k) tsfresh: https://github.com/blue-yonder/tsfresh 
+* https://github.com/chlubba/catch22 catch-22: CAnonical Time-series CHaracteristics
+* (~235) https://github.com/benfulcher/hctsa Highly comparative time-series analysis code repository
+* (~600) https://github.com/bukosabino/ta Technical Analysis Library using Pandas (Python)
+
+Feature extraction:
+* (~206) https://github.com/tyarkoni/pliers - Automated feature extraction in Python (audio/video)
+* (~4.1k) https://github.com/Featuretools/featuretools
+* (~1.4k) https://github.com/mapbox/robosat - feature extraction from aerial and satellite imagery. Semantic segmentation on aerial and satellite imagery. Extracts features such as: buildings, parking lots, roads, water, clouds
+
+Feature selection:
+* (~1.2k) https://github.com/WillKoehrsen/feature-selector Feature selector is a tool for dimensionality reduction of machine learning datasets.
+  Find unnecessary (redundant) features using simple methods: missing values, high correlation etc.
+  See article: https://towardsdatascience.com/a-feature-selection-tool-for-machine-learning-in-python-b64dd23710f0
+* (~600) https://github.com/scikit-learn-contrib/boruta_py - Python implementations of the Boruta all-relevant feature selection method
+* (~200) https://github.com/EpistasisLab/scikit-rebate - A scikit-learn-compatible Python implementation of ReBATE, a suite of Relief-based feature selection algorithms for Machine Learning
+* (~560) https://github.com/abhayspawar/featexp eature exploration for supervised learning
+
+Hyper-parameter optimization:
+* (~362) https://github.com/machinalis/featureforge - creating and testing machine learning features, with a scikit-learn compatible API
+* (~1.5k) https://github.com/instacart/lore Lore makes machine learning approachable for Software Engineers and maintainable for Machine Learning Researchers
+* (~6.1k) https://github.com/EpistasisLab/tpot Python Automated Machine Learning tool that optimizes machine learning pipelines using genetic programming
+* (~1.3k) https://github.com/ClimbsRocks/auto_ml [UNMAINTAINED] Automated machine learning for analytics & production
+* (~1.1k) https://github.com/pfnet/optuna - A hyperparameter optimization framework https://optuna.org
+
+### Data integration, ETL, data integration
+
+* (13k) https://github.com/apache/incubator-airflow https://airflow.apache.org programmatically author, schedule, and monitor workflows as directed acyclic graphs (DAGs) of tasks
+* (12k) https://github.com/spotify/luigi build complex pipelines of (long-running) batch jobs like Hadoop jobs, Spark jobs, dumping data to/from databases, running machine learning algorithms, Python snippet etc. The dependency graph is specified within Python (not XML or JSON).
+* (~2.7k) https://github.com/azkaban/azkaban Azkaban workflow manager
+* Oozie 
+* (~750) https://github.com/d6t/d6tflow - Python library for building highly effective data science workflows (on top of luigi)
+
+ETL:
+* (~1k) https://github.com/python-bonobo/bonobo https://www.bonobo-project.org/ Transform Load Extract for Python 3.5+ 
+* (~1.2k) https://github.com/mara/data-integration A lightweight opinionated ETL framework, halfway between plain scripts and Apache Airflow
+
+Stream processing:
+* (1.5k) https://github.com/nerevu/riko A Python stream processing engine modeled after Yahoo! Pipes
+
+Web scrapping
+* (~34k) https://github.com/scrapy/scrapy - create spiders bots that scan website pages and collect structured data
+
+
 ### Labeling (with suggestions)
 
 * https://github.com/Cartucho/yolo-boundingbox-labeler-GUI, YOLO format
@@ -202,51 +188,6 @@ Systems and companies:
 * H2O.ai Dreverless AI
 * OneClick.ai
 
-### Time series and forecasting
-
-Books and articles:
-* ARIMA Model – Complete Guide to Time Series Forecasting in Python: https://www.machinelearningplus.com/time-series/arima-model-time-series-forecasting-python
-
-Implementations:
-* Prophet (Facebook): https://facebook.github.io/prophet/ https://github.com/facebook/prophet
-* Forecast (R)
-
-Stock price forecasting:
-* (~600) https://github.com/huseinzol05/Stock-Prediction-Models
-* (~1300) https://github.com/borisbanushev/stockpredictionai
-
-### Feature engineering
-
-Lists:
-* https://github.com/MaxHalford/xam - Personal data science and machine learning toolbox
-* https://github.com/xiaoganghan/awesome-feature-engineering
-
-Time series:
-* (~4.1k) tsfresh: https://github.com/blue-yonder/tsfresh 
-* https://github.com/chlubba/catch22 catch-22: CAnonical Time-series CHaracteristics
-* (~235) https://github.com/benfulcher/hctsa Highly comparative time-series analysis code repository
-* (~600) https://github.com/bukosabino/ta Technical Analysis Library using Pandas (Python)
-
-Feature extraction:
-* (~206) https://github.com/tyarkoni/pliers - Automated feature extraction in Python (audio/video)
-* (~4.1k) https://github.com/Featuretools/featuretools
-* (~1.4k) https://github.com/mapbox/robosat - feature extraction from aerial and satellite imagery. Semantic segmentation on aerial and satellite imagery. Extracts features such as: buildings, parking lots, roads, water, clouds
-
-Feature selection:
-* (~1.2k) https://github.com/WillKoehrsen/feature-selector Feature selector is a tool for dimensionality reduction of machine learning datasets.
-  Find unnecessary (redundant) features using simple methods: missing values, high correlation etc.
-  See article: https://towardsdatascience.com/a-feature-selection-tool-for-machine-learning-in-python-b64dd23710f0
-* (~600) https://github.com/scikit-learn-contrib/boruta_py - Python implementations of the Boruta all-relevant feature selection method
-* (~200) https://github.com/EpistasisLab/scikit-rebate - A scikit-learn-compatible Python implementation of ReBATE, a suite of Relief-based feature selection algorithms for Machine Learning
-* (~560) https://github.com/abhayspawar/featexp eature exploration for supervised learning
-
-Hyper-parameter optimization:
-* (~362) https://github.com/machinalis/featureforge - creating and testing machine learning features, with a scikit-learn compatible API
-* (~1.5k) https://github.com/instacart/lore Lore makes machine learning approachable for Software Engineers and maintainable for Machine Learning Researchers
-* (~6.1k) https://github.com/EpistasisLab/tpot Python Automated Machine Learning tool that optimizes machine learning pipelines using genetic programming
-* (~1.3k) https://github.com/ClimbsRocks/auto_ml [UNMAINTAINED] Automated machine learning for analytics & production
-* (~1.1k) https://github.com/pfnet/optuna - A hyperparameter optimization framework https://optuna.org
-
 ### Visualization and VA
 
 * Matplotlib http://matplotlib.org/
@@ -279,22 +220,14 @@ Publishing notebooks (from github etc.):
 * https://mybinder.org/
 * http://colab.research.google.com/ a kind of Jupyter notebooks stored in Google Drive
 
-### Graphs, RDFs etc.
 
-Graph stores:
-* (~1400) A distributed knowledge graph store https://github.com/eBay/beam 
-* (~1530) A large-scale entity and relation database supporting aggregation of properties https://github.com/gchq/Gaffer
+## Libraries, utilies tools, frameworks
 
-Databases:
-* (~10k) Dgraph Fast, Distributed Graph DB https://dgraph.io https://dgraph.io/
-* Neo4j
-* (~2.5k) Janus Graph https://janusgraph.org/ https://github.com/janusgraph/janusgraph
-  JanusGraph [2] has support for a lot of different backends, built by the old team behind TitanDB
-* (~8.2k) https://github.com/arangodb/arangodb ArangoDB is a native multi-model database with flexible data models for documents, graphs, and key-values. 
-  Best open source graph database is ArrangoDB they have master to master cluster
+### Python
 
-Visualizations and dashboards:
-* graphviz
+* Top 10 Python libraries of 2017: https://tryolabs.com/blog/2017/12/19/top-10-python-libraries-of-2017/
+* https://github.com/vinta/awesome-python - A curated list of awesome Python frameworks, libraries, software and resources
+* Checklist for Python libraries APIs: http://python.apichecklist.com/
 
 ### Tools
 
@@ -313,13 +246,94 @@ Other:
 * click: creating beautiful command line interfaces
 * chardet
 
+### Formats, persistence and serialization
+
+* https://github.com/wesm/feather  fast, interoperable binary data frame storage for Python, R, and more powered by Apache Arrow
+* https://github.com/apache/arrow standardized language-independent columnar memory format for flat and hierarchical data
+* https://github.com/Blosc/bcolz A columnar data container that can be compressed
+* cloudpickle: serialize Python constructs not supported by the default pickle module from the Python standard library (lambdas etc.)
+* pytables (905): https://github.com/PyTables/PyTables - A Python package to manage extremely large amounts of data http://www.pytables.org
+  * based on hdf5 https://www.hdfgroup.org/ HDF supports n-dimensional datasets and each element in the dataset may itself be a complex object.
+* h5py (1.3k): https://github.com/h5py/h5py HDF5 for Python -- The h5py package is a Pythonic interface to the HDF5 binary data format
+
+### Authentication, Authorization, Security
+
+* https://github.com/dwyl/learn-json-web-tokens/ -  Learn how to use JSON Web Token (JWT) to secure your next Web App! (Tutorial/Example with Tests!!)
+
+### Linux and OS
+
+* https://0xax.gitbooks.io/linux-insides/content/ - Linux inside
+* https://john-millikin.com/unix-syscalls - UNIX Syscalls
+
+### Platform and servers
+
+Load balancing:
+* ngnix
+* haproxy - http://www.haproxy.org/
+* GLB Director - https://github.com/github/glb-director - Github, Layer 4 load balancer
+* https://code.fb.com/open-source/open-sourcing-katran-a-scalable-network-load-balancer/ - Facebook Katran
+* https://cloudplatform.googleblog.com/2016/03/Google-shares-software-network-load-balancer-design-powering-GCP-networking.html - Google
+
+Dockerized automated https reverse proxy:
+* https://github.com/jwilder/nginx-proxy Automated nginx proxy for Docker containers using docker-gen
+  * https://github.com/JrCs/docker-letsencrypt-nginx-proxy-companion LetsEncrypt companion container for nginx-proxy 
+* https://traefik.io/ https://github.com/containous/traefik/ - cloud native edge router. a modern HTTP reverse proxy and load balancer that makes deploying microservices easy
+* https://github.com/SteveLTN/https-portal A fully automated HTTPS server powered by Nginx, Let's Encrypt and Docker. 
+* https://github.com/sozu-proxy/sozu HTTP reverse proxy, configurable at runtime, fast and safe, built in Rust.
+* https://caddyserver.com/docs/automatic-https https://github.com/mholt/caddy (free if you build it yourself) Caddy automatically enables HTTPS for all your sites, given that some reasonable criteria. Fast, cross-platform HTTP/2 web server with automatic HTTPS 
+* https://github.com/Valian/docker-nginx-auto-ssl Docker image for automatic generation of SSL certs using Let's encrypt and Open Resty 
+
+Discussions:
+* https://news.ycombinator.com/item?id=17984970
+
+Service registry and orchestrator:
+* etcd
+* consul
+
+Logging and tracing
+* fast logging library for Go Zap: https://github.com/uber-go/zap
+* http://opentracing.io/ - OpenTracing standard
+* CNCF Jaeger, a Distributed Tracing System  https://github.com/jaegertracing/jaeger https://uber.github.io/jaeger/ https://jaegertracing.io/
+* Lightstep https://github.com/lightstep/lightstep-tracer-go
+* Application tracing system for Go, based on Google's Dapper. (OpenTracing) https://sourcegraph.com https://github.com/sourcegraph/appdash
+
+### Async, event buses, actor model, job queues etc.
+
+* https://github.com/celery/celery (~13k) Distributed Task Queue http://celeryproject.org/
+* http://www.gevent.org/ https://github.com/gevent/gevent (~4.7k) - Coroutine-based concurrency library
+* http://eventlet.net/ https://github.com/eventlet/eventlet/ (~800) - Concurrent networking library
+
+Web frameworks (concurrent, async):
+* http://www.tornadoweb.org https://github.com/tornadoweb/tornado (~18k) - web framework and asynchronous networking library
+* https://github.com/Pylons/pyramid (~3k) web framework https://trypyramid.com/
+
+Actor models:
+* (~1.8k) https://github.com/quantmind/pulsar/ Event driven concurrent framework for Python https://quantmind.github.io/pulsar/index.html 
+Pulsar implements two layers of components on top of python asyncio module: the actor layer and the application framework.
+* (~800) https://github.com/jodal/pykka Pykka is a Python implementation of the actor model, which makes it easier to build concurrent applications
+* (~80) https://github.com/kquick/Thespian Python Actor concurrency library
+* https://gitlab.com/python-actorio/actorio
+
+### Computing
+
+* https://github.com/dask/dask (6.2k): Parallel computing with task scheduling
+* https://github.com/dask/distributed (939): distributed dask
+* https://github.com/ray-project/ray A system for parallel and distributed Python that unifies the ML ecosystem (similar to Dask)
+* https://github.com/databricks/spark-sklearn Scikit-learn integration package for Spark
+* https://github.com/arrayfire/arrayfire (2.9k): a general purpose GPU library
+
+Books:
+* https://chryswoods.com/parallel_python/index.html - Parallel Programming with Python
+
+
+## Other resources
+
 ### Data sources
 
 * Binance:
   * https://github.com/binance-exchange/binance-official-api-docs
   * https://github.com/binance-exchange/binance-official-api-docs/blob/master/rest-api.md
   * https://github.com/binance-exchange/python-binance
-
 
 ### Books
 
