@@ -14,12 +14,12 @@ Books and articles:
 * ARIMA Model – Complete Guide to Time Series Forecasting in Python: https://www.machinelearningplus.com/time-series/arima-model-time-series-forecasting-python
 
 Implementations:
-* Prophet (Facebook): https://facebook.github.io/prophet/ https://github.com/facebook/prophet
+* (10k) https://github.com/facebook/prophet Prophet https://facebook.github.io/prophet/ 
 * Forecast (R)
 
 Stock price forecasting:
-* (~600) https://github.com/huseinzol05/Stock-Prediction-Models
-* (~1300) https://github.com/borisbanushev/stockpredictionai
+* (1.4k) https://github.com/huseinzol05/Stock-Prediction-Models
+* (1.9k) https://github.com/borisbanushev/stockpredictionai
 
 ### Spatial data
 
@@ -27,40 +27,38 @@ Stock price forecasting:
 
 ### Audio and sound
 
+General audio processing libraries:
+* (4.8k) https://github.com/facebookresearch/wav2letter Automatic Speech Recognition Toolkit
+* (3.3k) https://github.com/librosa/librosa Librosa
+* (1.4k) https://github.com/MTG/essentia Essentia http://essentia.upf.edu/
+* (2.8k) https://github.com/tyiannak/pyAudioAnalysis Python Audio Analysis Library: Feature Extraction, Classification, Segmentation and Applications
+* (500) https://github.com/keunwoochoi/kapre keras audio preprocessor that let you calculate STFT/melspectrograms directly in your keras model on the fly without saving them in your storage
+* (100) https://github.com/bmcfee/resampy Efficient sample rate conversion in python
+
+Pitch trackers:
+* (300) https://github.com/marl/crepe REPE is a monophonic pitch tracker based on a deep convolutional neural network operating directly on the time-domain waveform input. CREPE is state-of-the-art (as of 2018), outperforming popular pitch trackers such as pYIN and SWIPE https://arxiv.org/abs/1802.06182
+* pYIN: https://www.eecs.qmul.ac.uk/~simond/pub/2014/MauchDixon-PYIN-ICASSP2014.pdf
+* SWIPE: https://pdfs.semanticscholar.org/0fd2/6e267cfa9b6d519967ea00db4ffeac272777.pdf
+
+Other
+* (385) https://github.com/AddictedCS/soundfingerprinting audio acoustic fingerprinting fingerprinting in C# (advertising etc. - not speech)
+
 Books:
 * Think DSP: Digital Signal Processing in Python: http://greenteapress.com/thinkdsp/thinkdsp.pdf
   * Include a Python lib and examples in Python: https://github.com/AllenDowney/ThinkDSP 
 * Digital Signal Processing: https://dsp-nbsphinx.readthedocs.io/en/nbsphinx-experiment/index.html
 * Sound Processing with Short Time Fourier Transform: https://www.numerical-tours.com/matlab/audio_1_processing/
 
-Pitch trackers:
-* CREPE is a monophonic pitch tracker based on a deep convolutional neural network operating directly on the time-domain waveform input. CREPE is state-of-the-art (as of 2018), outperforming popular pitch trackers such as pYIN and SWIPE.
-  * https://arxiv.org/abs/1802.06182
-  * CREPE: https://github.com/marl/crepe
-* pYIN: https://www.eecs.qmul.ac.uk/~simond/pub/2014/MauchDixon-PYIN-ICASSP2014.pdf
-* SWIPE: https://pdfs.semanticscholar.org/0fd2/6e267cfa9b6d519967ea00db4ffeac272777.pdf
-
-Audio processing libraries:
-* https://github.com/librosa/librosa (~2.8k) https://librosa.github.io/librosa/ Librosa
-* https://github.com/MTG/essentia (~1.2k) http://essentia.upf.edu/ Essentia
-* pyAudioAnalysis: https://github.com/tyiannak/pyAudioAnalysis (~2.4k) Python Audio Analysis Library: Feature Extraction, Classification, Segmentation and Applications
-* https://github.com/bmcfee/resampy (~100) http://resampy.readthedocs.io/ Efficient sample rate conversion in python http://resampy.readthedocs.io/
-* https://github.com/keunwoochoi/kapre (~400) keras audio preprocessor that let you calculate STFT/melspectrograms directly in your keras model on the fly without saving them in your storage
-* https://github.com/facebookresearch/wav2letter (4.4k) Automatic Speech Recognition Toolkit
-
-Other
-* https://github.com/AddictedCS/soundfingerprinting (~350) audio acoustic fingerprinting fingerprinting in C# (advertising etc. - not speech)
-
 ### Text NLP
 
-* (~20k) https://github.com/facebookresearch/fastText - Library for fast text representation and classification
-* (~14k) https://github.com/explosion/spaCy (in Cython) -  Industrial-strength Natural Language Processing (NLP) with Python and Cython https://spacy.io
-* (~10k) https://github.com/RaRe-Technologies/gensim Topic Modelling for Humans, robust semantic analysis, topic modeling and vector-space modeling
-* (~9.5k) https://github.com/huggingface/pytorch-transformers A library of state-of-the-art pretrained models for Natural Language Processing (NLP)
-* (~8k) https://github.com/nltk/nltk - NLTK
-* (~6.5k) https://github.com/zalandoresearch/flair A very simple framework for state-of-the-art Natural Language Processing (NLP)
-* (~3.9k) https://github.com/wireservice/csvkit
-* (~3.3k) DeepPavlov: https://github.com/deepmipt/DeepPavlov - building end-to-end dialog systems and training chatbots
+* (20k) https://github.com/facebookresearch/fastText - Library for fast text representation and classification
+* (15k) https://github.com/explosion/spaCy (in Cython) -  Industrial-strength Natural Language Processing (NLP) with Python and Cython https://spacy.io
+* (10k) https://github.com/RaRe-Technologies/gensim Topic Modelling for Humans, robust semantic analysis, topic modeling and vector-space modeling
+* (21k) https://github.com/huggingface/pytorch-transformers A library of state-of-the-art pretrained models for Natural Language Processing (NLP)
+* (8k) https://github.com/nltk/nltk - NLTK
+* (8k) https://github.com/zalandoresearch/flair A very simple framework for state-of-the-art Natural Language Processing (NLP)
+* (4k) https://github.com/wireservice/csvkit
+* (3.9k) DeepPavlov: https://github.com/deepmipt/DeepPavlov - building end-to-end dialog systems and training chatbots
 
 Lists:
 * https://github.com/keon/awesome-nlp
@@ -69,17 +67,17 @@ Lists:
 
 ### Video
 
-* https://github.com/Zulko/moviepy - Video editing with Python
-* https://github.com/iperov/DeepFaceLab (12k): DeepFaceLab is a tool that utilizes machine learning to replace faces in videos.
+* (6k) https://github.com/Zulko/moviepy - Video editing with Python
+* (12k) https://github.com/iperov/DeepFaceLab DeepFaceLab is a tool that utilizes machine learning to replace faces in videos.
 
 ### Images
 
-* scikit-image: for image io and transforms
-* https://github.com/python-pillow/Pillow (7k) PIL is the Python Imaging Library
+* (3.5k) scikit-image: for image io and transforms
+* (7k) https://github.com/python-pillow/Pillow PIL is the Python Imaging Library
 * OpenCV: for images
 * YOLO: https://pjreddie.com/darknet/yolo/
   * How to train YOLO to detect your own objects: https://timebutt.github.io/static/how-to-train-yolov2-to-detect-custom-objects/
-* sod: https://github.com/symisc/sod/ SOD - An Embedded, Modern Computer Vision & Machine Learning Library
+* (1k) sod: https://github.com/symisc/sod/ An Embedded, Modern Computer Vision & Machine Learning Library
 * DeepDetect https://github.com/beniz/deepdetect/tree/master/demo/objsearch http://www.deepdetect.com/
   * Object similarity search: https://github.com/beniz/deepdetect/tree/master/demo/objsearch
     * for suggesting labels (bounding box)
@@ -87,16 +85,15 @@ Lists:
 ### Graphs, RDFs etc.
 
 Graph stores:
-* (~1400) A distributed knowledge graph store https://github.com/eBay/beam 
-* (~1530) A large-scale entity and relation database supporting aggregation of properties https://github.com/gchq/Gaffer
+* (1.5k) https://github.com/eBay/beam A distributed knowledge graph store 
+* (1.6k) https://github.com/gchq/Gaffer A large-scale entity and relation database supporting aggregation of properties 
 
 Databases:
-* (~10k) Dgraph Fast, Distributed Graph DB https://dgraph.io https://dgraph.io/
+* (10k) Dgraph Fast, Distributed Graph DB https://dgraph.io https://dgraph.io/
 * Neo4j
-* (~2.5k) Janus Graph https://janusgraph.org/ https://github.com/janusgraph/janusgraph
+* (2.5k) Janus Graph https://janusgraph.org/ https://github.com/janusgraph/janusgraph
   JanusGraph [2] has support for a lot of different backends, built by the old team behind TitanDB
-* (~8.2k) https://github.com/arangodb/arangodb ArangoDB is a native multi-model database with flexible data models for documents, graphs, and key-values. 
-  Best open source graph database is ArrangoDB they have master to master cluster
+* (8.2k) https://github.com/arangodb/arangodb ArangoDB is a native multi-model database with flexible data models for documents, graphs, and key-values. Best open source graph database is ArrangoDB they have master to master cluster
 
 Visualizations and dashboards:
 * graphviz
@@ -111,30 +108,30 @@ Lists:
 * https://github.com/xiaoganghan/awesome-feature-engineering
 
 Time series:
-* (~4.1k) tsfresh: https://github.com/blue-yonder/tsfresh 
+* (4.1k) tsfresh: https://github.com/blue-yonder/tsfresh 
 * https://github.com/chlubba/catch22 catch-22: CAnonical Time-series CHaracteristics
-* (~235) https://github.com/benfulcher/hctsa Highly comparative time-series analysis code repository
-* (~600) https://github.com/bukosabino/ta Technical Analysis Library using Pandas (Python)
+* (235) https://github.com/benfulcher/hctsa Highly comparative time-series analysis code repository
+* (600) https://github.com/bukosabino/ta Technical Analysis Library using Pandas (Python)
 
 Feature extraction:
-* (~206) https://github.com/tyarkoni/pliers - Automated feature extraction in Python (audio/video)
-* (~4.1k) https://github.com/Featuretools/featuretools
-* (~1.4k) https://github.com/mapbox/robosat - feature extraction from aerial and satellite imagery. Semantic segmentation on aerial and satellite imagery. Extracts features such as: buildings, parking lots, roads, water, clouds
+* (206) https://github.com/tyarkoni/pliers - Automated feature extraction in Python (audio/video)
+* (4.1k) https://github.com/Featuretools/featuretools
+* (1.4k) https://github.com/mapbox/robosat - feature extraction from aerial and satellite imagery. Semantic segmentation on aerial and satellite imagery. Extracts features such as: buildings, parking lots, roads, water, clouds
 
 Feature selection:
-* (~1.2k) https://github.com/WillKoehrsen/feature-selector Feature selector is a tool for dimensionality reduction of machine learning datasets.
+* (1.2k) https://github.com/WillKoehrsen/feature-selector Feature selector is a tool for dimensionality reduction of machine learning datasets.
   Find unnecessary (redundant) features using simple methods: missing values, high correlation etc.
   See article: https://towardsdatascience.com/a-feature-selection-tool-for-machine-learning-in-python-b64dd23710f0
-* (~600) https://github.com/scikit-learn-contrib/boruta_py - Python implementations of the Boruta all-relevant feature selection method
-* (~200) https://github.com/EpistasisLab/scikit-rebate - A scikit-learn-compatible Python implementation of ReBATE, a suite of Relief-based feature selection algorithms for Machine Learning
-* (~560) https://github.com/abhayspawar/featexp eature exploration for supervised learning
+* (600) https://github.com/scikit-learn-contrib/boruta_py - Python implementations of the Boruta all-relevant feature selection method
+* (200) https://github.com/EpistasisLab/scikit-rebate - A scikit-learn-compatible Python implementation of ReBATE, a suite of Relief-based feature selection algorithms for Machine Learning
+* (560) https://github.com/abhayspawar/featexp eature exploration for supervised learning
 
 Hyper-parameter optimization:
-* (~362) https://github.com/machinalis/featureforge - creating and testing machine learning features, with a scikit-learn compatible API
-* (~1.5k) https://github.com/instacart/lore Lore makes machine learning approachable for Software Engineers and maintainable for Machine Learning Researchers
-* (~6.1k) https://github.com/EpistasisLab/tpot Python Automated Machine Learning tool that optimizes machine learning pipelines using genetic programming
-* (~1.3k) https://github.com/ClimbsRocks/auto_ml [UNMAINTAINED] Automated machine learning for analytics & production
-* (~1.1k) https://github.com/pfnet/optuna - A hyperparameter optimization framework https://optuna.org
+* (362) https://github.com/machinalis/featureforge - creating and testing machine learning features, with a scikit-learn compatible API
+* (1.5k) https://github.com/instacart/lore Lore makes machine learning approachable for Software Engineers and maintainable for Machine Learning Researchers
+* (6.1k) https://github.com/EpistasisLab/tpot Python Automated Machine Learning tool that optimizes machine learning pipelines using genetic programming
+* (1.3k) https://github.com/ClimbsRocks/auto_ml [UNMAINTAINED] Automated machine learning for analytics & production
+* (1.1k) https://github.com/pfnet/optuna - A hyperparameter optimization framework https://optuna.org
 
 ### AutoML
 
@@ -169,19 +166,19 @@ Algorithms:
 
 * (13k) https://github.com/apache/incubator-airflow https://airflow.apache.org programmatically author, schedule, and monitor workflows as directed acyclic graphs (DAGs) of tasks
 * (12k) https://github.com/spotify/luigi build complex pipelines of (long-running) batch jobs like Hadoop jobs, Spark jobs, dumping data to/from databases, running machine learning algorithms, Python snippet etc. The dependency graph is specified within Python (not XML or JSON).
-* (~2.7k) https://github.com/azkaban/azkaban Azkaban workflow manager
+* (2.7k) https://github.com/azkaban/azkaban Azkaban workflow manager
 * Oozie 
-* (~750) https://github.com/d6t/d6tflow - Python library for building highly effective data science workflows (on top of luigi)
+* (750) https://github.com/d6t/d6tflow - Python library for building highly effective data science workflows (on top of luigi)
 
 ETL:
-* (~1k) https://github.com/python-bonobo/bonobo https://www.bonobo-project.org/ Transform Load Extract for Python 3.5+ 
-* (~1.2k) https://github.com/mara/data-integration A lightweight opinionated ETL framework, halfway between plain scripts and Apache Airflow
+* (1k) https://github.com/python-bonobo/bonobo https://www.bonobo-project.org/ Transform Load Extract for Python 3.5+ 
+* (1.2k) https://github.com/mara/data-integration A lightweight opinionated ETL framework, halfway between plain scripts and Apache Airflow
 
 Stream processing:
 * (1.5k) https://github.com/nerevu/riko A Python stream processing engine modeled after Yahoo! Pipes
 
 Web scrapping
-* (~34k) https://github.com/scrapy/scrapy - create spiders bots that scan website pages and collect structured data
+* (34k) https://github.com/scrapy/scrapy - create spiders bots that scan website pages and collect structured data
 
 ### Labeling (with suggestions)
 
@@ -302,19 +299,19 @@ Logging and tracing
 
 ### Async, event buses, actor model, job queues etc.
 
-* https://github.com/celery/celery (~13k) Distributed Task Queue http://celeryproject.org/
-* http://www.gevent.org/ https://github.com/gevent/gevent (~4.7k) - Coroutine-based concurrency library
-* http://eventlet.net/ https://github.com/eventlet/eventlet/ (~800) - Concurrent networking library
+* (13k) https://github.com/celery/celery Distributed Task Queue http://celeryproject.org/
+* (4.7k) http://www.gevent.org/ https://github.com/gevent/gevent Coroutine-based concurrency library
+* (800) http://eventlet.net/ https://github.com/eventlet/eventlet/ Concurrent networking library
 
 Web frameworks (concurrent, async):
-* http://www.tornadoweb.org https://github.com/tornadoweb/tornado (~18k) - web framework and asynchronous networking library
-* https://github.com/Pylons/pyramid (~3k) web framework https://trypyramid.com/
+* (18k) http://www.tornadoweb.org https://github.com/tornadoweb/tornado web framework and asynchronous networking library
+* (3k) https://github.com/Pylons/pyramid web framework https://trypyramid.com/
 
 Actor models:
-* (~1.8k) https://github.com/quantmind/pulsar/ Event driven concurrent framework for Python https://quantmind.github.io/pulsar/index.html 
+* (1.8k) https://github.com/quantmind/pulsar/ Event driven concurrent framework for Python https://quantmind.github.io/pulsar/index.html 
 Pulsar implements two layers of components on top of python asyncio module: the actor layer and the application framework.
-* (~800) https://github.com/jodal/pykka Pykka is a Python implementation of the actor model, which makes it easier to build concurrent applications
-* (~80) https://github.com/kquick/Thespian Python Actor concurrency library
+* (800) https://github.com/jodal/pykka Pykka is a Python implementation of the actor model, which makes it easier to build concurrent applications
+* (80) https://github.com/kquick/Thespian Python Actor concurrency library
 * https://gitlab.com/python-actorio/actorio
 
 ### Computing
