@@ -1,25 +1,29 @@
 # A collection of resources on machine learning, data processing and related areas
 
-Table of contents (TBD)
+* [Analysis of different types of data](#analysis-of-different-types-of-data)
+* [Data and knowledge engineering](#data-and-knowledge-engineering)
+* [Libraries, utilies tools](#libraries-utilies-tools)
+* [Other resources](#other-resources)
+
 
 ## Analysis of different types of data
 
-### Video
+### Time series and forecasting
 
-* https://github.com/Zulko/moviepy - Video editing with Python
-* https://github.com/iperov/DeepFaceLab (12k): DeepFaceLab is a tool that utilizes machine learning to replace faces in videos.
+Books and articles:
+* ARIMA Model – Complete Guide to Time Series Forecasting in Python: https://www.machinelearningplus.com/time-series/arima-model-time-series-forecasting-python
 
-### Images
+Implementations:
+* Prophet (Facebook): https://facebook.github.io/prophet/ https://github.com/facebook/prophet
+* Forecast (R)
 
-* scikit-image: for image io and transforms
-* https://github.com/python-pillow/Pillow (7k) PIL is the Python Imaging Library
-* OpenCV: for images
-* YOLO: https://pjreddie.com/darknet/yolo/
-  * How to train YOLO to detect your own objects: https://timebutt.github.io/static/how-to-train-yolov2-to-detect-custom-objects/
-* sod: https://github.com/symisc/sod/ SOD - An Embedded, Modern Computer Vision & Machine Learning Library
-* DeepDetect https://github.com/beniz/deepdetect/tree/master/demo/objsearch http://www.deepdetect.com/
-  * Object similarity search: https://github.com/beniz/deepdetect/tree/master/demo/objsearch
-    * for suggesting labels (bounding box)
+Stock price forecasting:
+* (~600) https://github.com/huseinzol05/Stock-Prediction-Models
+* (~1300) https://github.com/borisbanushev/stockpredictionai
+
+### Spatial data
+
+* (1.9k) https://github.com/geopandas/geopandas Python tools for geographic data
 
 ### Audio and sound
 
@@ -63,22 +67,22 @@ Lists:
 * https://github.com/astorfi/Deep-Learning-NLP
 * https://github.com/brianspiering/awesome-dl4nlp
 
-### Time series and forecasting
+### Video
 
-Books and articles:
-* ARIMA Model – Complete Guide to Time Series Forecasting in Python: https://www.machinelearningplus.com/time-series/arima-model-time-series-forecasting-python
+* https://github.com/Zulko/moviepy - Video editing with Python
+* https://github.com/iperov/DeepFaceLab (12k): DeepFaceLab is a tool that utilizes machine learning to replace faces in videos.
 
-Implementations:
-* Prophet (Facebook): https://facebook.github.io/prophet/ https://github.com/facebook/prophet
-* Forecast (R)
+### Images
 
-Stock price forecasting:
-* (~600) https://github.com/huseinzol05/Stock-Prediction-Models
-* (~1300) https://github.com/borisbanushev/stockpredictionai
-
-### Spatial data
-
-* (1.9k) https://github.com/geopandas/geopandas Python tools for geographic data
+* scikit-image: for image io and transforms
+* https://github.com/python-pillow/Pillow (7k) PIL is the Python Imaging Library
+* OpenCV: for images
+* YOLO: https://pjreddie.com/darknet/yolo/
+  * How to train YOLO to detect your own objects: https://timebutt.github.io/static/how-to-train-yolov2-to-detect-custom-objects/
+* sod: https://github.com/symisc/sod/ SOD - An Embedded, Modern Computer Vision & Machine Learning Library
+* DeepDetect https://github.com/beniz/deepdetect/tree/master/demo/objsearch http://www.deepdetect.com/
+  * Object similarity search: https://github.com/beniz/deepdetect/tree/master/demo/objsearch
+    * for suggesting labels (bounding box)
 
 ### Graphs, RDFs etc.
 
@@ -132,6 +136,35 @@ Hyper-parameter optimization:
 * (~1.3k) https://github.com/ClimbsRocks/auto_ml [UNMAINTAINED] Automated machine learning for analytics & production
 * (~1.1k) https://github.com/pfnet/optuna - A hyperparameter optimization framework https://optuna.org
 
+### AutoML
+
+AutoML libs:
+* AutoWeka
+* MLBox
+* auto-sklearn
+* TPOT
+* HpBandSter
+* AutoKeras
+
+Systems and companies:
+* DataRobot
+* DarwinAI
+* H2O.ai Dreverless AI
+* OneClick.ai
+
+### AI, data mining, machine learning algorithms
+
+Resources:
+* https://github.com/astorfi/TensorFlow-World-Resources
+* https://github.com/astorfi/Deep-Learning-World
+
+Algorithms:
+* XGBoost, CatBoost, LightGBM
+* https://github.com/spotify/annoy 
+  * Approximate Nearest Neighbors 
+  * USP: ability to use static files as indexes, share index across process, that is, in-memory and efficient and multi-process
+  * e.g, music recommendation in Spotify, simlar images (for labeling etc.)  
+
 ### Data integration, ETL, data integration
 
 * (13k) https://github.com/apache/incubator-airflow https://airflow.apache.org programmatically author, schedule, and monitor workflows as directed acyclic graphs (DAGs) of tasks
@@ -150,7 +183,6 @@ Stream processing:
 Web scrapping
 * (~34k) https://github.com/scrapy/scrapy - create spiders bots that scan website pages and collect structured data
 
-
 ### Labeling (with suggestions)
 
 * https://github.com/Cartucho/yolo-boundingbox-labeler-GUI, YOLO format
@@ -158,35 +190,6 @@ Web scrapping
 * https://github.com/beniz/deepdetect/tree/master/demo/objsearch
 * labelmg (free)
 * rectlabel (for Pascal VOC format)
-
-### AI, data mining, machine learning algorithms
-
-Resources:
-* https://github.com/astorfi/TensorFlow-World-Resources
-* https://github.com/astorfi/Deep-Learning-World
-
-Algorithms:
-* XGBoost, CatBoost, LightGBM
-* https://github.com/spotify/annoy 
-  * Approximate Nearest Neighbors 
-  * USP: ability to use static files as indexes, share index across process, that is, in-memory and efficient and multi-process
-  * e.g, music recommendation in Spotify, simlar images (for labeling etc.)  
-
-### AutoML
-
-AutoML libs:
-* AutoWeka
-* MLBox
-* auto-sklearn
-* TPOT
-* HpBandSter
-* AutoKeras
-
-Systems and companies:
-* DataRobot
-* DarwinAI
-* H2O.ai Dreverless AI
-* OneClick.ai
 
 ### Visualization and VA
 
@@ -221,7 +224,7 @@ Publishing notebooks (from github etc.):
 * http://colab.research.google.com/ a kind of Jupyter notebooks stored in Google Drive
 
 
-## Libraries, utilies tools, frameworks
+## Libraries, utilies tools
 
 ### Python
 
