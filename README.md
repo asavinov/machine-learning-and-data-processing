@@ -2,7 +2,8 @@
 
 * [Analysis of different types of data](#analysis-of-different-types-of-data)
 * [Data and knowledge engineering](#data-and-knowledge-engineering)
-* [Libraries, utilies tools](#libraries-utilies-tools)
+* [Asynchronous data processing](#asynchronous-data-processing)
+* [Libraries, utilities tools](#libraries-utilities-tools)
 * [Other resources](#other-resources)
 
 
@@ -220,8 +221,128 @@ Publishing notebooks (from github etc.):
 * https://mybinder.org/
 * http://colab.research.google.com/ a kind of Jupyter notebooks stored in Google Drive
 
+## Asynchronous data processing
 
-## Libraries, utilies tools
+### What is asynchronous data processing
+
+TBD
+
+### Reactive programming
+
+Approaches to asynchronous programming:
+
+* Callback model:
+  * A callback function is provided as part of an asynchronous call
+  * The call is non-blocking and the source program continues execution
+  * It is not possible to await for the return (it is essentially done by the callback function)
+  * The callback function can be viewed as a one-time listener for a return event, that is, it represents code which consumes the result
+  * The source code where the call is made and the consumer of the result are in different functions and cannot share (local) context
+  * The callback function may make its own asynchronous calls which leads to a "callback hell"
+
+* Future/promise:
+  * An asynchronous call is made as usual but return a special wrapper object
+  * A callback function is not specified and is not used
+  * The returned result is consumed by the code which follows the call (as opposed to its use in a separate callback function)
+  * The future/promise is supposed to be awaited. Awaiting denotes a point where we say that the next instruction needs the result
+  * The awaiting point is like a one-time single-value listener for the result where the program execution is suspended until the return event is received
+
+Links:
+* Reactive programming in Python
+* Reactive programming in Java
+* Reactive programming in C#
+
+### Reactive streaming
+
+* Listeners:
+  * A callback function is registered and then automatically called for each incoming event
+  * Callback functions are (normally) called only sequentially, that is, next event can be processed only when the previous event has been processed by the previous callback invocation. Callbacks are not executed concurrently.
+  * The result of a callback invocation is frequently needed because it is executed by the event producer
+
+* Reactive streams:
+  * It is a graph of producers and consumers
+  * Consumers and producers are not supposed to communicate in a free manner by sending messages to each other where a sender knows the address(s) of the receivers
+  * An element declares which messages it produces but it is unaware of who will subscribe to and consume its messages, and how they will be used (in contrast to the actor model)
+  * An element must know what kind of messages it needs and explicitly subscribe to specific producers - messages will not come automatically just because somebody wants to send them to us
+  * For data processing, reative streams provide a number of operators which can be applied to an input stream(s) and produce an output stream
+  * Links:
+    * https://www.reactive-streams.org/
+	* (3k) https://github.com/reactor/reactor
+	* http://reactivex.io/ An API for asynchronous programming with observable streams:
+	  * (3.3k) https://github.com/ReactiveX/RxPY Reactive Extensions for Python
+	  * (41.8k) https://github.com/ReactiveX/RxJava Reactive Extensions for the JVM – a library for composing asynchronous and event-based programs using observable sequences for the Java VM
+	  * etc. https://github.com/ReactiveX
+
+* Actor model:
+  * Each element has an identifier (address, reference) which is used by other actors to send messages
+  * A sender (producer) must know what it wants to do when it sends messages and it must know its destination
+  * Receiving elements can receive messages from any other element and their task is to respond according to their logic (as expected by the sender)
+  * Actors receive messages without subscribing to any producer (as opposed to the actor model where you will not receive anything until you subscribe to some event producer)
+  * Each actor has a handler (callback) which is invoked for processing incoming messages
+  * Actors are supposed to have a state and frequently it is why we want to define different actors
+  * Links:
+    * (857) https://github.com/jodal/pykka Python implementation of the actor model, which makes it easier to build concurrent applications
+	* (10.6k) https://github.com/akka/akka Build highly concurrent, distributed, and resilient message-driven applications on the JVM
+
+### Event loops vs. threads
+
+* Both a thread task and an event loop task are executed until finished, that is, the code to execute is provided as a procedure
+* Thread tasks are dispatched by the system (not application) while dispatching logic of event tasks is part of the application
+* At each moment, there is a fixed number of threads concurrently executed by one process. The number of concurrently executed event loop tasks is not limited.
+* Thread tasks are (automatically) switched at the instruction level and the dispatcher is unaware of the needs of this thread or the application. Event loop tasks are switched at the level of logical application units depending on what this application needs.
+* In a multi-thread application, we need to manage the threads ourselves, e.g., by creating and deleting them. In an event loop application, the tasks (starting, suspending, finishing) is managed by the event loop manager.
+* In an event loop application, tasks specify dependencies on other tasks, and these points are used while dispatching the execution of tasks. Threads cannot declare dependencies on the results provided by other tasks. If we need some external result, then the thread has to wait. This logic has to be implemented manually and the system dispatcher is unaware of these dependencies.
+
+Event loops: 
+* (14.4k) https://github.com/libuv/libuv Cross-platform asynchronous I/O
+* (5.8k) https://github.com/libevent/libevent Event notification library
+* (846) https://github.com/enki/libev Full-featured high-performance event loop loosely modelled after libevent
+* Python asyncio: https://github.com/timofurrer/awesome-asyncio 
+
+### Async networking libraries
+
+* (5k) https://github.com/gevent/gevent coroutine - based Python networking library. "systems like gevent use lightweight threads to offer performance comparable to asynchronous systems, but they do not actually make things asynchronous"
+  * greenlet to provide a high-level synchronous API 
+    * on top of the libev or libuv event loop (like libevent)
+
+* (892) https://github.com/eventlet/eventlet concurrent networking library for Python
+  * epoll or kqueue or libevent for highly scalable non-blocking I/O
+
+* (9k) https://github.com/aio-libs/aiohttp Asynchronous HTTP client/server framework for asyncio and Python
+
+* (3.7k) https://github.com/twisted/twisted Event-driven networking engine written in Python. 
+  * Twisted projects variously support TCP, UDP, SSL/TLS, IP multicast, Unix domain sockets, many protocols (including HTTP, XMPP, NNTP, IMAP, SSH, IRC, FTP, and others), and much more.
+  * Twisted supports all major system event loops:
+    * select (all platforms), 
+    * poll (most POSIX platforms), 
+    * epoll (Linux), 
+    * kqueue (FreeBSD, macOS), 
+    * IOCP (Windows), 
+    * various GUI event loops (GTK+2/3, Qt, wxWidgets)
+
+### Async web frameworks
+
+* (18.8k) https://github.com/tornadoweb/tornado Python web framework and asynchronous networking library 
+  * "Tornado is integrated with the standard library asyncio module and shares the same event loop (by default since Tornado 5.0). In general, libraries designed for use with asyncio can be mixed freely with Tornado." 
+  * Some async client Libraries built on tornado.ioloop:
+    * DynamoDB, CouchDB, Hbase, MongoDB, MySQL, PostgresQL, PrestoDB, RethinkDB
+    * AMQP, NATS, RabbitMQ, SMTP
+    * DNS, Memcached, Reis
+    * etc. https://github.com/tornadoweb/tornado/wiki/Links
+* (13.4k) https://github.com/huge-success/sanic Sanic
+* (8k) https://github.com/tiangolo/fastapi FastAPI
+* (5.5k) https://github.com/vibora-io/vibora Like Sanic but even faster
+* https://gitlab.com/pgjones/quart API compatible with Flask 
+
+### Utilities
+
+Retry libraries:
+* (2k) https://github.com/jd/tenacity - originates from a fork of retrying
+* (1.5k) https://github.com/rholder/retrying - not supported anymore
+* (1.2k) https://github.com/litl/backoff
+* (267) https://github.com/invl/retry
+* (36) https://github.com/channable/opnieuw
+
+## Libraries, utilities, tools
 
 ### Python
 
