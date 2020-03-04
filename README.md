@@ -163,8 +163,9 @@ Algorithms:
   * USP: ability to use static files as indexes, share index across process, that is, in-memory and efficient and multi-process
   * e.g, music recommendation in Spotify, simlar images (for labeling etc.)  
 
-### Data integration, ETL, data integration
+### Data integration, ETL, job management, web scrapping
 
+* (14.5k) https://github.com/celery/celery Distributed Task Queue http://celeryproject.org/
 * (13k) https://github.com/apache/incubator-airflow https://airflow.apache.org programmatically author, schedule, and monitor workflows as directed acyclic graphs (DAGs) of tasks
 * (12k) https://github.com/spotify/luigi build complex pipelines of (long-running) batch jobs like Hadoop jobs, Spark jobs, dumping data to/from databases, running machine learning algorithms, Python snippet etc. The dependency graph is specified within Python (not XML or JSON).
 * (2.7k) https://github.com/azkaban/azkaban Azkaban workflow manager
@@ -266,11 +267,11 @@ Links:
   * For data processing, reative streams provide a number of operators which can be applied to an input stream(s) and produce an output stream
   * Links:
     * https://www.reactive-streams.org/
-	* (3k) https://github.com/reactor/reactor
-	* http://reactivex.io/ An API for asynchronous programming with observable streams:
-	  * (3.3k) https://github.com/ReactiveX/RxPY Reactive Extensions for Python
-	  * (41.8k) https://github.com/ReactiveX/RxJava Reactive Extensions for the JVM – a library for composing asynchronous and event-based programs using observable sequences for the Java VM
-	  * etc. https://github.com/ReactiveX
+    * (3k) https://github.com/reactor/reactor
+    * http://reactivex.io/ An API for asynchronous programming with observable streams:
+      * (3.3k) https://github.com/ReactiveX/RxPY Reactive Extensions for Python
+      * (41.8k) https://github.com/ReactiveX/RxJava Reactive Extensions for the JVM – a library for composing asynchronous and event-based programs using observable sequences for the Java VM
+      * etc. https://github.com/ReactiveX
 
 * Actor model:
   * Each element has an identifier (address, reference) which is used by other actors to send messages
@@ -281,7 +282,11 @@ Links:
   * Actors are supposed to have a state and frequently it is why we want to define different actors
   * Links:
     * (857) https://github.com/jodal/pykka Python implementation of the actor model, which makes it easier to build concurrent applications
-	* (10.6k) https://github.com/akka/akka Build highly concurrent, distributed, and resilient message-driven applications on the JVM
+    * (10.6k) https://github.com/akka/akka Build highly concurrent, distributed, and resilient message-driven applications on the JVM
+    * (1.8k) https://github.com/quantmind/pulsar/ Event driven concurrent framework for Python https://quantmind.github.io/pulsar/index.html 
+Pulsar implements two layers of components on top of python asyncio module: the actor layer and the application framework.
+    * (80) https://github.com/kquick/Thespian Python Actor concurrency library
+    * https://gitlab.com/python-actorio/actorio
 
 ### Event loops vs. threads
 
@@ -332,6 +337,7 @@ Event loops:
 * (8k) https://github.com/tiangolo/fastapi FastAPI
 * (5.5k) https://github.com/vibora-io/vibora Like Sanic but even faster
 * https://gitlab.com/pgjones/quart API compatible with Flask 
+* (3.3k) https://github.com/Pylons/pyramid Python web framework https://trypyramid.com/ (it seems to be a conventional web framework)
 
 ### Utilities
 
@@ -417,23 +423,6 @@ Logging and tracing
 * CNCF Jaeger, a Distributed Tracing System  https://github.com/jaegertracing/jaeger https://uber.github.io/jaeger/ https://jaegertracing.io/
 * Lightstep https://github.com/lightstep/lightstep-tracer-go
 * Application tracing system for Go, based on Google's Dapper. (OpenTracing) https://sourcegraph.com https://github.com/sourcegraph/appdash
-
-### Async, event buses, actor model, job queues etc.
-
-* (13k) https://github.com/celery/celery Distributed Task Queue http://celeryproject.org/
-* (4.7k) http://www.gevent.org/ https://github.com/gevent/gevent Coroutine-based concurrency library
-* (800) http://eventlet.net/ https://github.com/eventlet/eventlet/ Concurrent networking library
-
-Web frameworks (concurrent, async):
-* (18k) http://www.tornadoweb.org https://github.com/tornadoweb/tornado web framework and asynchronous networking library
-* (3k) https://github.com/Pylons/pyramid web framework https://trypyramid.com/
-
-Actor models:
-* (1.8k) https://github.com/quantmind/pulsar/ Event driven concurrent framework for Python https://quantmind.github.io/pulsar/index.html 
-Pulsar implements two layers of components on top of python asyncio module: the actor layer and the application framework.
-* (800) https://github.com/jodal/pykka Pykka is a Python implementation of the actor model, which makes it easier to build concurrent applications
-* (80) https://github.com/kquick/Thespian Python Actor concurrency library
-* https://gitlab.com/python-actorio/actorio
 
 ### Computing
 
