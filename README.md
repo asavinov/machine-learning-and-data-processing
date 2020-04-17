@@ -182,6 +182,10 @@ Stream processing:
 Web scrapping
 * (36.8k) https://github.com/scrapy/scrapy - create spiders bots that scan website pages and collect structured data
 
+Machine learning training, deployment etc.
+* (8.8k) https://github.com/kubeflow/kubeflow Machine Learning Toolkit for Kubernetes
+* (4.3k) https://github.com/cortexlabs/cortex Cloud native model serving infrastructure. Cortex is an open source platform for deploying machine learning models as production web services
+
 ### Labeling (with suggestions)
 
 * https://github.com/Cartucho/yolo-boundingbox-labeler-GUI, YOLO format
