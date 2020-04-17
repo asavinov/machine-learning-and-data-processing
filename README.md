@@ -385,7 +385,22 @@ Other:
 
 ### Authentication, Authorization, Security
 
-* https://github.com/dwyl/learn-json-web-tokens/ -  Learn how to use JSON Web Token (JWT) to secure your next Web App! (Tutorial/Example with Tests!!)
+Identity and Access Management
+  * (5.9k) https://github.com/keycloak/keycloak
+  * (8.3k) https://github.com/ory/hydra OAuth2 Server and OpenID Certified™ OpenID Connect Provider written in Go - cloud native, security-first, open source API security for your infrastructure. SDKs for any language
+  * (1.7k) https://github.com/lepture/authlib The ultimate Python library in building OAuth, OpenID Connect clients and servers. JWS,JWE,JWK,JWA,JWT included
+  * (0.5k) https://github.com/OpenIDC/pyoidc/ A Python OpenID Connect implementation
+  * (1.5k) https://github.com/RichardKnop/go-oauth2-server A standalone, specification-compliant, OAuth2 server written in Golang. 
+  * https://www.gluu.org/
+
+Secrets management, encryption as a service, and privileged access management. A secret is anything that you want to tightly control access to, such as API keys, passwords, certificates, and more.
+  * (15.5k) https://github.com/hashicorp/vault A tool for secrets management, encryption as a service, and privileged access management
+
+Policy Enforcement Point, Identity And Access Proxy (IAP), Zero-Trust Network Architecture, i.e. a reverse proxy in front of your upstream API or web server that rejects unauthorized requests and forwards authorized ones to your server. 
+  * (1.7k) https://github.com/ory/oathkeeper ORY Oathkeeper 
+
+Other links:
+* (4.1k) https://github.com/dwyl/learn-json-web-tokens/ -  Learn how to use JSON Web Token (JWT) to secure your next Web App! (Tutorial/Example with Tests)
 
 ### Linux and OS
 
