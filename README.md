@@ -252,6 +252,8 @@ Approaches to asynchronous programming:
   * The awaiting point is like a one-time single-value listener for the result where the program execution is suspended until the return event is received
 
 Links:
+* The Reactive Manifesto: https://www.reactivemanifesto.org/
+* Reactive Design Patterns: https://www.reactivedesignpatterns.com/
 * Reactive programming in Python
 * Reactive programming in Java
 * Reactive programming in C#
