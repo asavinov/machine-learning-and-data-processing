@@ -134,6 +134,22 @@ Hyper-parameter optimization:
 * (1.4k) https://github.com/ClimbsRocks/auto_ml [UNMAINTAINED] Automated machine learning for analytics & production
 * (372) https://github.com/machinalis/featureforge - creating and testing machine learning features, with a scikit-learn compatible API
 
+### Feature stores
+
+* (852) https://github.com/feast-dev/feast Feature Store for Machine Learning https://feast.dev
+* (185) https://github.com/logicalclocks/hopsworks Hopsworks - Data-Intensive AI platform with a Feature Store
+
+Links:
+* Rethinking Feature Stores: https://medium.com/@changshe/rethinking-feature-stores-74963c2596f0
+* ML Feature Stores: A Casual Tour:
+  * https://medium.com/@farmi/ml-feature-stores-a-casual-tour-fc45a25b446a
+  * https://medium.com/@farmi/ml-feature-stores-a-casual-tour-30a93e16d213
+  * https://medium.com/@farmi/ml-feature-stores-a-casual-tour-3-3-877557792c43
+* How to Build your own Feature Store: https://www.logicalclocks.com/blog/how-to-build-your-own-feature-store
+* Michelangelo Palette: A Feature Engineering Platform at Uber: https://www.infoq.com/presentations/michelangelo-palette-uber/
+* Zipline: Airbnb’s Machine Learning Data Management Platform https://databricks.com/session/zipline-airbnbs-machine-learning-data-management-platform
+* Fact Store at Scale for Netflix Recommendations: https://databricks.com/session/fact-store-scale-for-netflix-recommendations
+
 ### AutoML
 
 AutoML libs:
