@@ -410,6 +410,7 @@ Other:
 Identity and Access Management
   * (5.9k) https://github.com/keycloak/keycloak
   * (8.3k) https://github.com/ory/hydra OAuth2 Server and OpenID Certified™ OpenID Connect Provider written in Go - cloud native, security-first, open source API security for your infrastructure. SDKs for any language
+  * (3k) https://github.com/apache/shiro Apache Shiro is a powerful and easy-to-use Java security framework that performs authentication, authorization, cryptography, and session management
   * (1.7k) https://github.com/lepture/authlib The ultimate Python library in building OAuth, OpenID Connect clients and servers. JWS,JWE,JWK,JWA,JWT included
   * (0.5k) https://github.com/OpenIDC/pyoidc/ A Python OpenID Connect implementation
   * (1.5k) https://github.com/RichardKnop/go-oauth2-server A standalone, specification-compliant, OAuth2 server written in Golang. 
