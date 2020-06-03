@@ -464,10 +464,11 @@ Logging and tracing
 
 ### Computing
 
-* (6.5k) https://github.com/dask/dask Parallel computing with task scheduling
+* (6.8k) https://github.com/dask/dask Parallel computing with task scheduling
+* (4.1k) https://github.com/vaexio/vaex Out-of-Core DataFrames for Python, ML, visualize and explore big tabular data at a billion rows per second
 * (1k) https://github.com/dask/distributed distributed dask
-* (11.2) https://github.com/ray-project/ray A system for parallel and distributed Python that unifies the ML ecosystem (similar to Dask)
-* (3.0k) https://github.com/arrayfire/arrayfire a general purpose GPU library
+* (11.7k) https://github.com/ray-project/ray A system for parallel and distributed Python that unifies the ML ecosystem (similar to Dask)
+* (3.1k) https://github.com/arrayfire/arrayfire a general purpose GPU library
 * https://github.com/databricks/spark-sklearn [ARCHIVED] Scikit-learn integration package for Spark
 
 Books:
