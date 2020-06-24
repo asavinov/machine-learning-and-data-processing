@@ -202,13 +202,18 @@ Machine learning training, deployment etc.
 * (8.8k) https://github.com/kubeflow/kubeflow Machine Learning Toolkit for Kubernetes
 * (4.3k) https://github.com/cortexlabs/cortex Cloud native model serving infrastructure. Cortex is an open source platform for deploying machine learning models as production web services
 
-### Labeling (with suggestions)
+### Data labeling
 
+* (3.9k) https://github.com/snorkel-team/snorkel Programmatically Build and Manage Training Data
 * https://github.com/Cartucho/yolo-boundingbox-labeler-GUI, YOLO format
 * Labelbox: https://github.com/Labelbox/Labelbox https://www.labelbox.io/ non-YOLO format
 * https://github.com/beniz/deepdetect/tree/master/demo/objsearch
 * labelmg (free)
 * rectlabel (for Pascal VOC format)
+
+### Model management
+
+TBD
 
 ### Visualization and VA
 
