@@ -155,7 +155,11 @@ Links:
 AutoML libs:
 * (7.3k) https://github.com/EpistasisLab/tpot A Python Automated Machine Learning tool that optimizes machine learning pipelines using genetic programming
 * (7.2k) https://github.com/keras-team/autokeras AutoML library for deep learning
+* (6.5k) https://github.com/microsoft/nni An open source AutoML toolkit for automate machine learning lifecycle, including feature engineering, neural architecture search, model compression and hyper-parameter tuning
 * (4.6k) https://github.com/automl/auto-sklearn Automated Machine Learning with scikit-learn
+* (3.1k) https://github.com/tensorflow/adanet Fast and flexible AutoML with learning guarantees
+* (2.9k) https://github.com/google/automl Google Brain AutoML
+* (2.8k) https://github.com/mindsdb/mindsdb Machine Learning in one line of code
 * (1.2k) https://github.com/pycaret/pycaret An open source, low-code machine learning library in Python
 * (1.1k) https://github.com/AxeldeRomblay/MLBox MLBox is a powerful Automated Machine Learning python library
 * (260) https://github.com/automl/autoweka
