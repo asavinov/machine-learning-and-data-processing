@@ -153,12 +153,14 @@ Links:
 ### AutoML
 
 AutoML libs:
-* AutoWeka
-* MLBox
-* auto-sklearn
-* TPOT
-* HpBandSter
-* AutoKeras
+* (7.3k) https://github.com/EpistasisLab/tpot A Python Automated Machine Learning tool that optimizes machine learning pipelines using genetic programming
+* (7.2k) https://github.com/keras-team/autokeras AutoML library for deep learning
+* (4.6k) https://github.com/automl/auto-sklearn Automated Machine Learning with scikit-learn
+* (1.2k) https://github.com/pycaret/pycaret An open source, low-code machine learning library in Python
+* (1.1k) https://github.com/AxeldeRomblay/MLBox MLBox is a powerful Automated Machine Learning python library
+* (260) https://github.com/automl/autoweka
+* (389) https://github.com/automl/HpBandSter a distributed Hyperband implementation on Steroids
+* (125) https://github.com/shankarpandala/lazypredict Lazy Predict help build a lot of basic models without much code and helps understand which models works better without any parameter tuning
 
 Systems and companies:
 * DataRobot
