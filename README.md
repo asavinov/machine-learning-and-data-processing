@@ -75,11 +75,16 @@ Lists:
 
 ### Images
 
+* (14.5k) YOLO v4: https://github.com/AlexeyAB/darknet
+  * https://pjreddie.com/darknet/yolo/
+  * https://medium.com/what-is-artificial-intelligence/the-yolov4-algorithm-introduction-to-you-only-look-once-version-4-real-time-object-detection-5fd8a608b0fa
+  * https://medium.com/@whats_ai/what-is-the-yolo-algorithm-introduction-to-you-only-look-once-real-time-object-detection-f26aa81475f2
+  * How to train YOLO to detect your own objects: https://timebutt.github.io/static/how-to-train-yolov2-to-detect-custom-objects/
+* (12.6k) https://github.com/jantic/DeOldify A Deep Learning based project for colorizing and restoring old images (and video!)
+* (7.3k) https://github.com/microsoft/Bringing-Old-Photos-Back-to-Life Bringing Old Photo Back to Life (CVPR 2020 oral)
 * (4.1k) https://github.com/scikit-image/scikit-image Image processing in Python
 * (8k) https://github.com/python-pillow/Pillow PIL is the Python Imaging Library
 * OpenCV: for images
-* YOLO: https://pjreddie.com/darknet/yolo/
-  * How to train YOLO to detect your own objects: https://timebutt.github.io/static/how-to-train-yolov2-to-detect-custom-objects/
 * (1.4k) https://github.com/symisc/sod An Embedded, Modern Computer Vision & Machine Learning Library
 * DeepDetect https://github.com/beniz/deepdetect/tree/master/demo/objsearch http://www.deepdetect.com/
   * Object similarity search: https://github.com/beniz/deepdetect/tree/master/demo/objsearch
