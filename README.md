@@ -198,6 +198,7 @@ Algorithms:
 * (20.3k) https://github.com/apache/airflow https://airflow.apache.org A platform to programmatically author, schedule, and monitor workflows
 * (16.6k) https://github.com/celery/celery Distributed Task Queue http://celeryproject.org/
 * (14.2k) https://github.com/spotify/luigi build complex pipelines of (long-running) batch jobs like Hadoop jobs, Spark jobs, dumping data to/from databases, running machine learning algorithms, Python snippet etc. The dependency graph is specified within Python (not XML or JSON).
+* (5.8k) https://github.com/prefecthq/prefect
 * (3.5k) https://github.com/azkaban/azkaban Azkaban workflow manager
 * Oozie 
 * (895) https://github.com/d6t/d6tflow Python library for building highly effective data science workflows (on top of luigi)
