@@ -18,6 +18,7 @@ Implementations:
 * (12.2k) https://github.com/facebook/prophet Prophet https://facebook.github.io/prophet/ 
 * (1.1k) https://github.com/ourownstory/neural_prophet Neural Network based Time-Series model
 * (3.5k) https://github.com/alan-turing-institute/sktime A unified toolbox for machine learning with time series
+* (808) https://github.com/alkaline-ml/pmdarima A statistical library designed to fill the void in Python's time series analysis capabilities, including the equivalent of R's auto.arima function
 
 Stock price forecasting:
 * (3.2k) https://github.com/huseinzol05/Stock-Prediction-Models
