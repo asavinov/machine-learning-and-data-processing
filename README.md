@@ -192,7 +192,7 @@ Algorithms:
 * XGBoost, CatBoost, LightGBM
 * (8.1k) https://github.com/spotify/annoy Approximate Nearest Neighbors in C++/Python optimized for memory usage and loading/saving to disk
   * USP: ability to use static files as indexes, share index across process, that is, in-memory and efficient and multi-process
-  * e.g, music recommendation in Spotify, simlar images (for labeling etc.)  
+  * e.g, music recommendation in Spotify, similar images (for labeling etc.)  
 
 ### Data integration, ETL, job management, web scrapping
 
@@ -486,12 +486,13 @@ Service registry and orchestrator:
 * etcd
 * consul
 
-Logging and tracing
+Logging, tracing, monitoring
 * https://github.com/uber-go/zap fast logging library for Go Zap
 * http://opentracing.io/ - OpenTracing standard
 * CNCF Jaeger, a Distributed Tracing System  https://github.com/jaegertracing/jaeger https://uber.github.io/jaeger/ https://jaegertracing.io/
 * https://github.com/lightstep/lightstep-tracer-go Lightstep 
 * https://github.com/sourcegraph/appdash Application tracing system for Go, based on Google's Dapper. (OpenTracing) https://sourcegraph.com
+* https://github.com/netdata/netdata Real-time performance monitoring, done right! https://www.netdata.cloud. Discussion: https://news.ycombinator.com/item?id=26886792
 
 ### Computing
 
@@ -525,3 +526,10 @@ Resources:
   * http://www.cs.cornell.edu/jeh/book.pdf - Foundations of Data Science
   * https://otexts.org/fpp2/ - Forecasting: Principles and Practice
   * https://github.com/christophM/interpretable-ml-book - Interpretable machine learning
+
+### Python:
+
+* https://github.com/pamoroso/free-python-books Python books free to read online or download
+  * Discussion with more links: https://news.ycombinator.com/item?id=26759677
+* How to make an awesome Python package in 2021: https://antonz.org/python-packaging/
+  * Discussion with more links: https://news.ycombinator.com/item?id=26733423
