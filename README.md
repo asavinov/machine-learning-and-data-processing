@@ -533,3 +533,4 @@ Resources:
   * Discussion with more links: https://news.ycombinator.com/item?id=26759677
 * How to make an awesome Python package in 2021: https://antonz.org/python-packaging/
   * Discussion with more links: https://news.ycombinator.com/item?id=26733423
+* https://github.com/facebook/pyre-check Performant type-checking for python https://pyre-check.org/
