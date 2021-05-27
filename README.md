@@ -30,6 +30,7 @@ Lists:
 ### Spatial data
 
 * (2.5k) https://github.com/geopandas/geopandas Python tools for geographic data
+* (154) https://github.com/giswqs/leafmap A Python package for geospatial analysis and interactive mapping with minimal coding in a Jupyter environment
 
 ### Audio and sound
 
