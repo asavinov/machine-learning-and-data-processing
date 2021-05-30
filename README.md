@@ -15,40 +15,40 @@ Books and articles:
 * ARIMA Model – Complete Guide to Time Series Forecasting in Python: https://www.machinelearningplus.com/time-series/arima-model-time-series-forecasting-python
 
 Implementations:
-* (12.2k) https://github.com/facebook/prophet Prophet https://facebook.github.io/prophet/ 
-* (1.1k) https://github.com/ourownstory/neural_prophet Neural Network based Time-Series model
-* (3.5k) https://github.com/alan-turing-institute/sktime A unified toolbox for machine learning with time series
-* (808) https://github.com/alkaline-ml/pmdarima A statistical library designed to fill the void in Python's time series analysis capabilities, including the equivalent of R's auto.arima function
+* (12.8k) https://github.com/facebook/prophet Prophet https://facebook.github.io/prophet/ 
+* (1.3k) https://github.com/ourownstory/neural_prophet Neural Network based Time-Series model
+* (4k) https://github.com/alan-turing-institute/sktime A unified toolbox for machine learning with time series
+* (893) https://github.com/alkaline-ml/pmdarima A statistical library designed to fill the void in Python's time series analysis capabilities, including the equivalent of R's auto.arima function
 
 Stock price forecasting:
-* (3.2k) https://github.com/huseinzol05/Stock-Prediction-Models
-* (2.7k) https://github.com/borisbanushev/stockpredictionai
+* (3.9k) https://github.com/huseinzol05/Stock-Prediction-Models
+* (2.9k) https://github.com/borisbanushev/stockpredictionai
 
 Lists:
 * https://github.com/MaxBenChrist/awesome_time_series_in_python
 
 ### Spatial data
 
-* (2.5k) https://github.com/geopandas/geopandas Python tools for geographic data
-* (154) https://github.com/giswqs/leafmap A Python package for geospatial analysis and interactive mapping with minimal coding in a Jupyter environment
+* (2.6k) https://github.com/geopandas/geopandas Python tools for geographic data
+* (530) https://github.com/giswqs/leafmap A Python package for geospatial analysis and interactive mapping with minimal coding in a Jupyter environment
 
 ### Audio and sound
 
 General audio processing libraries:
-* (5.6k) https://github.com/facebookresearch/wav2letter Automatic Speech Recognition Toolkit
-* (4.3k) https://github.com/librosa/librosa Librosa
-* (1.7k) https://github.com/MTG/essentia Essentia http://essentia.upf.edu/
-* (3.7k) https://github.com/tyiannak/pyAudioAnalysis Python Audio Analysis Library: Feature Extraction, Classification, Segmentation and Applications
-* (705) https://github.com/keunwoochoi/kapre keras audio preprocessor that let you calculate STFT/melspectrograms directly in your keras model on the fly without saving them in your storage
-* (153) https://github.com/bmcfee/resampy Efficient sample rate conversion in python
+* (5.8k) https://github.com/facebookresearch/wav2letter Automatic Speech Recognition Toolkit
+* (4.5k) https://github.com/librosa/librosa Librosa
+* (1.8k) https://github.com/MTG/essentia Essentia http://essentia.upf.edu/
+* (3.9k) https://github.com/tyiannak/pyAudioAnalysis Python Audio Analysis Library: Feature Extraction, Classification, Segmentation and Applications
+* (739) https://github.com/keunwoochoi/kapre keras audio preprocessor that let you calculate STFT/melspectrograms directly in your keras model on the fly without saving them in your storage
+* (158) https://github.com/bmcfee/resampy Efficient sample rate conversion in python
 
 Pitch trackers:
-* (488) https://github.com/marl/crepe REPE is a monophonic pitch tracker based on a deep convolutional neural network operating directly on the time-domain waveform input. CREPE is state-of-the-art (as of 2018), outperforming popular pitch trackers such as pYIN and SWIPE https://arxiv.org/abs/1802.06182
+* (551) https://github.com/marl/crepe REPE is a monophonic pitch tracker based on a deep convolutional neural network operating directly on the time-domain waveform input. CREPE is state-of-the-art (as of 2018), outperforming popular pitch trackers such as pYIN and SWIPE https://arxiv.org/abs/1802.06182
 * pYIN: https://www.eecs.qmul.ac.uk/~simond/pub/2014/MauchDixon-PYIN-ICASSP2014.pdf
 * SWIPE: https://pdfs.semanticscholar.org/0fd2/6e267cfa9b6d519967ea00db4ffeac272777.pdf
 
 Other
-* (541) https://github.com/AddictedCS/soundfingerprinting audio acoustic fingerprinting fingerprinting in C# (advertising etc. - not speech)
+* (575) https://github.com/AddictedCS/soundfingerprinting audio acoustic fingerprinting fingerprinting in C# (advertising etc. - not speech)
 
 Books:
 * Think DSP: Digital Signal Processing in Python: http://greenteapress.com/thinkdsp/thinkdsp.pdf
@@ -58,14 +58,14 @@ Books:
 
 ### Text NLP
 
-* (22.2k) https://github.com/facebookresearch/fastText - Library for fast text representation and classification
-* (18.1k) https://github.com/explosion/spaCy (in Cython) -  Industrial-strength Natural Language Processing (NLP) with Python and Cython https://spacy.io
-* (11.7k) https://github.com/RaRe-Technologies/gensim Topic Modelling for Humans, robust semantic analysis, topic modeling and vector-space modeling
-* (40.2k) https://github.com/huggingface/pytorch-transformers A library of state-of-the-art pretrained models for Natural Language Processing (NLP)
-* (9.6k) https://github.com/nltk/nltk - NLTK
-* (9.9k) https://github.com/zalandoresearch/flair A very simple framework for state-of-the-art Natural Language Processing (NLP)
-* (4.5k) https://github.com/wireservice/csvkit
-* (5k) https://github.com/deepmipt/DeepPavlov - building end-to-end dialog systems and training chatbots
+* (22.6k) https://github.com/facebookresearch/fastText - Library for fast text representation and classification
+* (20.5k) https://github.com/explosion/spaCy (in Cython) -  Industrial-strength Natural Language Processing (NLP) with Python and Cython https://spacy.io
+* (12.1k) https://github.com/RaRe-Technologies/gensim Topic Modelling for Humans, robust semantic analysis, topic modeling and vector-space modeling
+* (46.6k) https://github.com/huggingface/pytorch-transformers A library of state-of-the-art pretrained models for Natural Language Processing (NLP)
+* (9.9k) https://github.com/nltk/nltk - NLTK
+* (10.4k) https://github.com/zalandoresearch/flair A very simple framework for state-of-the-art Natural Language Processing (NLP)
+* (4.6k) https://github.com/wireservice/csvkit
+* (5.2k) https://github.com/deepmipt/DeepPavlov - building end-to-end dialog systems and training chatbots
 
 Lists:
 * https://github.com/keon/awesome-nlp
@@ -74,21 +74,21 @@ Lists:
 
 ### Video
 
-* (7.3k) https://github.com/Zulko/moviepy - Video editing with Python
-* (23.1k) https://github.com/iperov/DeepFaceLab DeepFaceLab is a tool that utilizes machine learning to replace faces in videos.
+* (7.5k) https://github.com/Zulko/moviepy - Video editing with Python
+* (26.5k) https://github.com/iperov/DeepFaceLab DeepFaceLab is a tool that utilizes machine learning to replace faces in videos.
 
 ### Images
 
-* (14.8k) YOLO v4: https://github.com/AlexeyAB/darknet
+* (54.6k) https://github.com/opencv/opencv Open Source Computer Vision Library
+* (16.2k) YOLO v4: https://github.com/AlexeyAB/darknet
   * https://pjreddie.com/darknet/yolo/
   * https://medium.com/what-is-artificial-intelligence/the-yolov4-algorithm-introduction-to-you-only-look-once-version-4-real-time-object-detection-5fd8a608b0fa
   * https://medium.com/@whats_ai/what-is-the-yolo-algorithm-introduction-to-you-only-look-once-real-time-object-detection-f26aa81475f2
   * How to train YOLO to detect your own objects: https://timebutt.github.io/static/how-to-train-yolov2-to-detect-custom-objects/
-* (12.7k) https://github.com/jantic/DeOldify A Deep Learning based project for colorizing and restoring old images (and video!)
-* (7.5k) https://github.com/microsoft/Bringing-Old-Photos-Back-to-Life Bringing Old Photo Back to Life (CVPR 2020 oral)
-* (4.2k) https://github.com/scikit-image/scikit-image Image processing in Python
-* (8.1k) https://github.com/python-pillow/Pillow PIL is the Python Imaging Library
-* OpenCV: for images
+* (13.6k) https://github.com/jantic/DeOldify A Deep Learning based project for colorizing and restoring old images (and video!)
+* (8.5k) https://github.com/microsoft/Bringing-Old-Photos-Back-to-Life Bringing Old Photo Back to Life (CVPR 2020 oral)
+* (4.4k) https://github.com/scikit-image/scikit-image Image processing in Python
+* (8.5k) https://github.com/python-pillow/Pillow PIL is the Python Imaging Library
 * (1.4k) https://github.com/symisc/sod An Embedded, Modern Computer Vision & Machine Learning Library
 * DeepDetect https://github.com/beniz/deepdetect/tree/master/demo/objsearch http://www.deepdetect.com/
   * Object similarity search: https://github.com/beniz/deepdetect/tree/master/demo/objsearch
@@ -101,14 +101,18 @@ Graph stores:
 * (1.6k) https://github.com/gchq/Gaffer A large-scale entity and relation database supporting aggregation of properties 
 
 Databases:
-* (14.7k) https://github.com/dgraph-io/dgraph Dgraph Fast, Distributed Graph DB https://dgraph.io/
+* (16.1k) https://github.com/dgraph-io/dgraph Dgraph Fast, Distributed Graph DB https://dgraph.io/
 * Neo4j
-* (3.8k) https://github.com/janusgraph/janusgraph https://janusgraph.org/ 
+* (4k) https://github.com/janusgraph/janusgraph https://janusgraph.org/ 
   JanusGraph [2] has support for a lot of different backends, built by the old team behind TitanDB
-* (10.8k) https://github.com/arangodb/arangodb ArangoDB is a native multi-model database with flexible data models for documents, graphs, and key-values. Best open source graph database is ArrangoDB they have master to master cluster
+* (11.2k) https://github.com/arangodb/arangodb ArangoDB is a native multi-model database with flexible data models for documents, graphs, and key-values. Best open source graph database is ArrangoDB they have master to master cluster
 
 Visualizations and dashboards:
 * graphviz
+
+### Statistics
+* https://github.com/lebigot/uncertainties Transparent calculations with uncertainties on the quantities involved (aka "error propagation"); calculation of derivatives
+* https://github.com/facebookarchive/bootstrapped Generate bootstrapped confidence intervals for A/B testing in Python
 
 
 ## Data and knowledge engineering
@@ -116,30 +120,30 @@ Visualizations and dashboards:
 ### Feature engineering
 
 Time series:
-* (5.3k) https://github.com/blue-yonder/tsfresh
-* (1.8k) https://github.com/bukosabino/ta Technical Analysis Library using Pandas (Python)
-* (391) https://github.com/benfulcher/hctsa Highly comparative time-series analysis code repository
-* (80) https://github.com/chlubba/catch22 catch-22: CAnonical Time-series CHaracteristics
+* (5.7k) https://github.com/blue-yonder/tsfresh
+* (2.2k) https://github.com/bukosabino/ta Technical Analysis Library using Pandas (Python)
+* (421) https://github.com/benfulcher/hctsa Highly comparative time-series analysis code repository
+* (101) https://github.com/chlubba/catch22 catch-22: CAnonical Time-series CHaracteristics
 
 Feature extraction:
-* (5.4k) https://github.com/Featuretools/featuretools
+* (5.6k) https://github.com/Featuretools/featuretools
 * (1.7k) https://github.com/mapbox/robosat - feature extraction from aerial and satellite imagery. Semantic segmentation on aerial and satellite imagery. Extracts features such as: buildings, parking lots, roads, water, clouds
-* (240) https://github.com/tyarkoni/pliers - Automated feature extraction in Python (audio/video)
+* (247) https://github.com/tyarkoni/pliers - Automated feature extraction in Python (audio/video)
 
 Feature selection:
 * (1.8k) https://github.com/WillKoehrsen/feature-selector Feature selector is a tool for dimensionality reduction of machine learning datasets.
   Find unnecessary (redundant) features using simple methods: missing values, high correlation etc.
   See article: https://towardsdatascience.com/a-feature-selection-tool-for-machine-learning-in-python-b64dd23710f0
-* (889) https://github.com/scikit-learn-contrib/boruta_py - Python implementations of the Boruta all-relevant feature selection method
-* (304) https://github.com/EpistasisLab/scikit-rebate - A scikit-learn-compatible Python implementation of ReBATE, a suite of Relief-based feature selection algorithms for Machine Learning
-* (678) https://github.com/abhayspawar/featexp eature exploration for supervised learning
+* (955) https://github.com/scikit-learn-contrib/boruta_py - Python implementations of the Boruta all-relevant feature selection method
+* (317) https://github.com/EpistasisLab/scikit-rebate - A scikit-learn-compatible Python implementation of ReBATE, a suite of Relief-based feature selection algorithms for Machine Learning
+* (695) https://github.com/abhayspawar/featexp eature exploration for supervised learning
 
 Hyper-parameter optimization:
-* (7.8k) https://github.com/EpistasisLab/tpot Python Automated Machine Learning tool that optimizes machine learning pipelines using genetic programming
-* (4k) https://github.com/pfnet/optuna - A hyperparameter optimization framework https://optuna.org
+* (8k) https://github.com/EpistasisLab/tpot Python Automated Machine Learning tool that optimizes machine learning pipelines using genetic programming
+* (4.6k) https://github.com/pfnet/optuna - A hyperparameter optimization framework https://optuna.org
 * (1.5k) https://github.com/instacart/lore Lore makes machine learning approachable for Software Engineers and maintainable for Machine Learning Researchers
 * (1.5k) https://github.com/ClimbsRocks/auto_ml [UNMAINTAINED] Automated machine learning for analytics & production
-* (377) https://github.com/machinalis/featureforge - creating and testing machine learning features, with a scikit-learn compatible API
+* (379) https://github.com/machinalis/featureforge - creating and testing machine learning features, with a scikit-learn compatible API
 
 Lists:
 * https://github.com/MaxHalford/xam - Personal data science and machine learning toolbox
@@ -147,8 +151,8 @@ Lists:
 
 ### Feature stores
 
-* (1.4k) https://github.com/feast-dev/feast Feature Store for Machine Learning https://feast.dev
-* (382) https://github.com/logicalclocks/hopsworks Hopsworks - Data-Intensive AI platform with a Feature Store
+* (1.9k) https://github.com/feast-dev/feast Feature Store for Machine Learning https://feast.dev
+* (492) https://github.com/logicalclocks/hopsworks Hopsworks - Data-Intensive AI platform with a Feature Store
 
 Resources:
 * Rethinking Feature Stores: https://medium.com/@changshe/rethinking-feature-stores-74963c2596f0
@@ -161,21 +165,25 @@ Resources:
 * Zipline: Airbnb’s Machine Learning Data Management Platform https://databricks.com/session/zipline-airbnbs-machine-learning-data-management-platform
 * Fact Store at Scale for Netflix Recommendations: https://databricks.com/session/fact-store-scale-for-netflix-recommendations
 
+### Model management
+
+TBD
+
 ### AutoML
 
 AutoML libs:
-* (9k) https://github.com/microsoft/nni An open source AutoML toolkit for automate machine learning lifecycle, including feature engineering, neural architecture search, model compression and hyper-parameter tuning
-* (7.8k) https://github.com/EpistasisLab/tpot A Python Automated Machine Learning tool that optimizes machine learning pipelines using genetic programming
-* (7.7k) https://github.com/keras-team/autokeras AutoML library for deep learning
-* (5.2k) https://github.com/automl/auto-sklearn Automated Machine Learning with scikit-learn
-* (3.7k) https://github.com/google/automl Google Brain AutoML
-* (3.2k) https://github.com/tensorflow/adanet Fast and flexible AutoML with learning guarantees
-* (3.2k) https://github.com/mindsdb/mindsdb Machine Learning in one line of code
-* (2.9k) https://github.com/pycaret/pycaret An open source, low-code machine learning library in Python
+* (9.7k) https://github.com/microsoft/nni An open source AutoML toolkit for automate machine learning lifecycle, including feature engineering, neural architecture search, model compression and hyper-parameter tuning
+* (8k) https://github.com/EpistasisLab/tpot A Python Automated Machine Learning tool that optimizes machine learning pipelines using genetic programming
+* (8k) https://github.com/keras-team/autokeras AutoML library for deep learning
+* (5.4k) https://github.com/automl/auto-sklearn Automated Machine Learning with scikit-learn
+* (4.3k) https://github.com/google/automl Google Brain AutoML
+* (3.3k) https://github.com/tensorflow/adanet Fast and flexible AutoML with learning guarantees
+* (3.7k) https://github.com/mindsdb/mindsdb Machine Learning in one line of code
+* (3.5k) https://github.com/pycaret/pycaret An open source, low-code machine learning library in Python
 * (1.2k) https://github.com/AxeldeRomblay/MLBox MLBox is a powerful Automated Machine Learning python library
-* (441) https://github.com/automl/HpBandSter a distributed Hyperband implementation on Steroids
-* (360) https://github.com/shankarpandala/lazypredict Lazy Predict help build a lot of basic models without much code and helps understand which models works better without any parameter tuning
-* (272) https://github.com/automl/autoweka
+* (466) https://github.com/automl/HpBandSter a distributed Hyperband implementation on Steroids
+* (28) https://github.com/shankarpandala/lazypredict Lazy Predict help build a lot of basic models without much code and helps understand which models works better without any parameter tuning
+* (280) https://github.com/automl/autoweka
 
 Systems and companies:
 * DataRobot
@@ -195,42 +203,41 @@ Algorithms:
   * USP: ability to use static files as indexes, share index across process, that is, in-memory and efficient and multi-process
   * e.g, music recommendation in Spotify, similar images (for labeling etc.)  
 
-### Data integration, ETL, job management, web scrapping
+### Data integration, ETL, job management, web scrapping, orchestration
 
-* (20.3k) https://github.com/apache/airflow https://airflow.apache.org A platform to programmatically author, schedule, and monitor workflows
-* (16.6k) https://github.com/celery/celery Distributed Task Queue http://celeryproject.org/
-* (14.2k) https://github.com/spotify/luigi build complex pipelines of (long-running) batch jobs like Hadoop jobs, Spark jobs, dumping data to/from databases, running machine learning algorithms, Python snippet etc. The dependency graph is specified within Python (not XML or JSON).
-* (5.8k) https://github.com/prefecthq/prefect
-* (3.5k) https://github.com/azkaban/azkaban Azkaban workflow manager
+* (21.6k) https://github.com/apache/airflow https://airflow.apache.org A platform to programmatically author, schedule, and monitor workflows
+* (17.3k) https://github.com/celery/celery Distributed Task Queue http://celeryproject.org/
+* (14.6k) https://github.com/spotify/luigi build complex pipelines of (long-running) batch jobs like Hadoop jobs, Spark jobs, dumping data to/from databases, running machine learning algorithms, Python snippet etc. The dependency graph is specified within Python (not XML or JSON).
+* (6.4k) https://github.com/prefecthq/prefect
+* (3.7k) https://github.com/azkaban/azkaban Azkaban workflow manager
 * Oozie 
-* (895) https://github.com/d6t/d6tflow Python library for building highly effective data science workflows (on top of luigi)
+* (911) https://github.com/d6t/d6tflow Python library for building highly effective data science workflows (on top of luigi)
 
 ETL:
-* (1.6k) https://github.com/mara/data-integration A lightweight opinionated ETL framework, halfway between plain scripts and Apache Airflow
+* (1.7k) https://github.com/mara/data-integration A lightweight opinionated ETL framework, halfway between plain scripts and Apache Airflow
 * (1.4k) https://github.com/python-bonobo/bonobo https://www.bonobo-project.org/ Transform Load Extract for Python 3.5+ 
 
 Stream processing:
 * (1.6k) https://github.com/nerevu/riko A Python stream processing engine modeled after Yahoo! Pipes
 
 Web scrapping
-* (39.6k) https://github.com/scrapy/scrapy - create spiders bots that scan website pages and collect structured data
+* (40.7k) https://github.com/scrapy/scrapy - create spiders bots that scan website pages and collect structured data
 
 Machine learning training, deployment etc.
-* (9.9k) https://github.com/kubeflow/kubeflow Machine Learning Toolkit for Kubernetes
-* (7.3k) https://github.com/cortexlabs/cortex Cloud native model serving infrastructure. Cortex is an open source platform for deploying machine learning models as production web services
+* (10.3k) https://github.com/kubeflow/kubeflow Machine Learning Toolkit for Kubernetes
+* (7.5k) https://github.com/cortexlabs/cortex Cloud native model serving infrastructure. Cortex is an open source platform for deploying machine learning models as production web services
+
+Data science support and tooling
+* (4.7k) https://github.com/drivendata/cookiecutter-data-science A logical, reasonably standardized, but flexible project structure for doing and sharing data science work
 
 ### Data labeling
 
-* (4.4k) https://github.com/snorkel-team/snorkel A system for quickly generating training data with weak supervision
-* (689) https://github.com/Cartucho/yolo-boundingbox-labeler-GUI Label images and video for Computer Vision applications (YOLO format)
-* (1.5k) https://github.com/Labelbox/Labelbox https://www.labelbox.io/ Labelbox is the fastest way to annotate data to build and ship computer vision applications (non-YOLO format)
+* (4.6k) https://github.com/snorkel-team/snorkel A system for quickly generating training data with weak supervision
+* (727) https://github.com/Cartucho/yolo-boundingbox-labeler-GUI Label images and video for Computer Vision applications (YOLO format)
+* (1.6k) https://github.com/Labelbox/Labelbox https://www.labelbox.io/ Labelbox is the fastest way to annotate data to build and ship computer vision applications (non-YOLO format)
 * https://github.com/beniz/deepdetect/tree/master/demo/objsearch
 * labelmg (free)
 * rectlabel (for Pascal VOC format)
-
-### Model management
-
-TBD
 
 ### Visualization and VA
 
@@ -249,8 +256,8 @@ TBD
 Dashboards:
 * Grafana (time series) https://grafana.com/  https://github.com/grafana/grafana 
   * Integration with InfluxDB
-* Superset (apache) https://github.com/apache/incubator-superset
-  * Integration with druid.io database https://github.com/apache/incubator-druid/
+* Superset https://github.com/apache/superset Apache Superset is a Data Visualization and Data Exploration Platform
+  * Integration with druid.io database https://github.com/apache/druid
 * Metabase https://metabase.com/ https://github.com/metabase/metabase
 * Redash https://redash.io/  https://github.com/getredash/redash
 * Zeppelin Apache https://zeppelin.apache.org/ https://github.com/apache/zeppelin 
@@ -259,6 +266,7 @@ Dashboards:
 * Bdash https://github.com/bdash-app/bdash
 * Datamill, ?
 * wagonhq, ?
+* https://github.com/nocodb/nocodb The Open Source Airtable alternative. Turns any MySQL, PostgreSQL, SQL Server, SQLite & MariaDB into a smart-spreadsheet
 
 Publishing notebooks (from github etc.):
 * https://mybinder.org/
@@ -351,16 +359,16 @@ Resources:
 
 ### Async networking libraries
 
-* (5.4k) https://github.com/gevent/gevent coroutine - based Python networking library. "systems like gevent use lightweight threads to offer performance comparable to asynchronous systems, but they do not actually make things asynchronous"
+* (5.5k) https://github.com/gevent/gevent coroutine - based Python networking library. "systems like gevent use lightweight threads to offer performance comparable to asynchronous systems, but they do not actually make things asynchronous"
   * greenlet to provide a high-level synchronous API 
     * on top of the libev or libuv event loop (like libevent)
 
-* (995) https://github.com/eventlet/eventlet concurrent networking library for Python
+* (1k) https://github.com/eventlet/eventlet concurrent networking library for Python
   * epoll or kqueue or libevent for highly scalable non-blocking I/O
 
-* (10.8k) https://github.com/aio-libs/aiohttp Asynchronous HTTP client/server framework for asyncio and Python
+* (11.2k) https://github.com/aio-libs/aiohttp Asynchronous HTTP client/server framework for asyncio and Python
 
-* (4.1k) https://github.com/twisted/twisted Event-driven networking engine written in Python. 
+* (4.3k) https://github.com/twisted/twisted Event-driven networking engine written in Python. 
   * Twisted projects variously support TCP, UDP, SSL/TLS, IP multicast, Unix domain sockets, many protocols (including HTTP, XMPP, NNTP, IMAP, SSH, IRC, FTP, and others), and much more.
   * Twisted supports all major system event loops:
     * select (all platforms), 
@@ -372,27 +380,27 @@ Resources:
 
 ### Async web frameworks
 
-* (19.8k) https://github.com/tornadoweb/tornado Python web framework and asynchronous networking library 
+* (20k) https://github.com/tornadoweb/tornado Python web framework and asynchronous networking library 
   * "Tornado is integrated with the standard library asyncio module and shares the same event loop (by default since Tornado 5.0). In general, libraries designed for use with asyncio can be mixed freely with Tornado." 
   * Some async client Libraries built on tornado.ioloop:
     * DynamoDB, CouchDB, Hbase, MongoDB, MySQL, PostgresQL, PrestoDB, RethinkDB
     * AMQP, NATS, RabbitMQ, SMTP
     * DNS, Memcached, Reis
     * etc. https://github.com/tornadoweb/tornado/wiki/Links
-* (26.6k) https://github.com/tiangolo/fastapi FastAPI
-* (14.5k) https://github.com/huge-success/sanic Sanic
+* (31.6k) https://github.com/tiangolo/fastapi FastAPI
+* (15k) https://github.com/huge-success/sanic Sanic
 * (5.7k) https://github.com/vibora-io/vibora Like Sanic but even faster
 * https://gitlab.com/pgjones/quart API compatible with Flask 
-* (3.5k) https://github.com/Pylons/pyramid Python web framework https://trypyramid.com/ (it seems to be a conventional web framework)
+* (3.6k) https://github.com/Pylons/pyramid Python web framework https://trypyramid.com/ (it seems to be a conventional web framework)
 
 ### Utilities
 
 Retry libraries:
-* (2.8k) https://github.com/jd/tenacity - originates from a fork of retrying
-* (1.6k) https://github.com/rholder/retrying - not supported anymore
-* (1.4k) https://github.com/litl/backoff
-* (366) https://github.com/invl/retry
-* (247) https://github.com/channable/opnieuw
+* (3k) https://github.com/jd/tenacity - originates from a fork of retrying
+* (1.7k) https://github.com/rholder/retrying - not supported anymore
+* (1.5k) https://github.com/litl/backoff
+* (394) https://github.com/invl/retry
+* (252) https://github.com/channable/opnieuw
 
 ## Libraries, utilities, tools
 
@@ -433,20 +441,20 @@ Other:
 ### Authentication, Authorization, Security
 
 Identity and Access Management
-* (10.1k) https://github.com/ory/hydra OAuth2 Server and OpenID Certified™ OpenID Connect Provider written in Go - cloud native, security-first, open source API security for your infrastructure. SDKs for any language
-* (8.1k) https://github.com/keycloak/keycloak
-* (3.6k) https://github.com/jpadilla/pyjwt JSON Web Token implementation in Python
-* (3.3k) https://github.com/apache/shiro Apache Shiro is a powerful and easy-to-use Java security framework that performs authentication, authorization, cryptography, and session management
-* (2.3k) https://github.com/lepture/authlib The ultimate Python library in building OAuth, OpenID Connect clients and servers. JWS,JWE,JWK,JWA,JWT included
-* (1.7k) https://github.com/RichardKnop/go-oauth2-server A standalone, specification-compliant, OAuth2 server written in Golang. 
-* (540) https://github.com/OpenIDC/pyoidc A Python OpenID Connect implementation
+* (11k) https://github.com/ory/hydra OAuth2 Server and OpenID Certified™ OpenID Connect Provider written in Go - cloud native, security-first, open source API security for your infrastructure. SDKs for any language
+* (9k) https://github.com/keycloak/keycloak
+* (3.8k) https://github.com/jpadilla/pyjwt JSON Web Token implementation in Python
+* (3.5k) https://github.com/apache/shiro Apache Shiro is a powerful and easy-to-use Java security framework that performs authentication, authorization, cryptography, and session management
+* (2.5k) https://github.com/lepture/authlib The ultimate Python library in building OAuth, OpenID Connect clients and servers. JWS,JWE,JWK,JWA,JWT included
+* (1.8k) https://github.com/RichardKnop/go-oauth2-server A standalone, specification-compliant, OAuth2 server written in Golang. 
+* (558) https://github.com/OpenIDC/pyoidc A Python OpenID Connect implementation
 * https://www.gluu.org/
 
 Secrets management, encryption as a service, and privileged access management. A secret is anything that you want to tightly control access to, such as API keys, passwords, certificates, and more.
-* (19.1k) https://github.com/hashicorp/vault A tool for secrets management, encryption as a service, and privileged access management
+* (21.2k) https://github.com/hashicorp/vault A tool for secrets management, encryption as a service, and privileged access management
 
 Policy Enforcement Point, Identity And Access Proxy (IAP), Zero-Trust Network Architecture, i.e. a reverse proxy in front of your upstream API or web server that rejects unauthorized requests and forwards authorized ones to your server. 
-* (2k) https://github.com/ory/oathkeeper ORY Oathkeeper 
+* (2.2k) https://github.com/ory/oathkeeper ORY Oathkeeper 
 
 Resources:
 * (4.1k) https://github.com/dwyl/learn-json-web-tokens -  Learn how to use JSON Web Token (JWT) to secure your next Web App! (Tutorial/Example with Tests)
@@ -460,10 +468,10 @@ Resources:
 ### Platform and servers
 
 Load balancing and proxy:
-* (42.8k) https://github.com/fatedier/frp
-* (32.4k) https://github.com/traefik/traefik
-* (31.7k) https://github.com/caddyserver/caddy
-* (28.1k) https://github.com/Kong/kong
+* (45.6k) https://github.com/fatedier/frp
+* (33.8k) https://github.com/traefik/traefik
+* (33.5k) https://github.com/caddyserver/caddy
+* (29.3k) https://github.com/Kong/kong
 * ngnix
 * haproxy - http://www.haproxy.org/
 * GLB Director - https://github.com/github/glb-director - Github, Layer 4 load balancer
@@ -497,11 +505,11 @@ Logging, tracing, monitoring
 
 ### Computing
 
-* (14.7k) https://github.com/ray-project/ray A system for parallel and distributed Python that unifies the ML ecosystem (similar to Dask)
-* (7.8k) https://github.com/dask/dask Parallel computing with task scheduling
-* (5.7k) https://github.com/vaexio/vaex Out-of-Core DataFrames for Python, ML, visualize and explore big tabular data at a billion rows per second
-* (3.3k) https://github.com/arrayfire/arrayfire a general purpose GPU library
-* (1.1k) https://github.com/dask/distributed distributed dask
+* (16.1k) https://github.com/ray-project/ray A system for parallel and distributed Python that unifies the ML ecosystem (similar to Dask)
+* (8.4k) https://github.com/dask/dask Parallel computing with task scheduling
+* (6.3k) https://github.com/vaexio/vaex Out-of-Core DataFrames for Python, ML, visualize and explore big tabular data at a billion rows per second
+* (3.5k) https://github.com/arrayfire/arrayfire a general purpose GPU library
+* (1.2k) https://github.com/dask/distributed distributed dask
 * https://github.com/databricks/spark-sklearn [ARCHIVED] Scikit-learn integration package for Spark
 
 Resources:
