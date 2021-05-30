@@ -203,15 +203,46 @@ Algorithms:
   * USP: ability to use static files as indexes, share index across process, that is, in-memory and efficient and multi-process
   * e.g, music recommendation in Spotify, similar images (for labeling etc.)  
 
-### Data integration, ETL, job management, web scrapping, orchestration
+### Workflow/job management, Data integration, ETL, web scrapping, orchestration
 
-* (21.6k) https://github.com/apache/airflow https://airflow.apache.org A platform to programmatically author, schedule, and monitor workflows
+For workflows, it is important how the following concepts are implemented:
+* Workflow task: what can be executed and how we specify the tasks to be executed (programmatically, declaratively etc.)
+* Dependencies: when and how tasks are started. It is not only about simple conditions like whether a (previous) task has been finished and with which status. Conditions might be much more complex and be essentially separate tasks.
+  * How to define conditional execution where execution of a task depends on dynamic conditions
+  * Choosing a task to be executed dynamically, that is, task to be executed is not known at the time of graph definition
+* Triggering workflows: How a whole workflow execution can be started (from inside or outside). These functions make workflow managers similar to asynchronous systems:
+  * From external systems, for example, by listening to some protocol
+  * Synchronous execution, for example, using schedulers like once per day
+
+A conventional workflow management system deals with task arguments and task return values. The goal here is to make the whole workflow with all its tasks data-aware, for example, by sharing some data. For the point of view of data processing, there is an additional aspect:
+* If it is a graph of data processing, then the question is where and how the system takes the data properties into account:
+  * Data state and data ranges like only data for the last month
+  * Data structure like columns and tables, for example, only these tables
+* Such data-aware workflows are most important for data-driven business, and the question is what they know about the data and how this knowledge is used to manage and execute workflow.
+
+General purpose workflow management systems:
+* (21.6k) https://github.com/apache/airflow https://airflow.apache.org A platform to programmatically author, schedule, and monitor workflows. "Airflow is based on DAG representation and doesn’t have a concept of input or output, just of flow."
+  * Tasks (Operators). Pluggable Python classes with many conventional execution types provided like `PythonOperator` or `BashOperator`. Note that these are task types which require custom task code for parameterization and instantiation. For `PythonOperator`, the custom code is provided as a Python function: `python_callable=my_task_fn`. Function arguments are passed in another parameter `op_kwargs`.
+    * https://marclamberti.com/blog/airflow-pythonoperator/
+  * Data. Small data sharing between tasks is performed via XCOM (cross-communication messages).
+    * https://marclamberti.com/blog/airflow-xcom/
+  * Dependencies. It is done programmatically and statically, for example: `my_task_1 >> my_task_2 >> [my_task_3, my_task_4]`
+  * Scheduling. It is possible to specify `start_date` and `schedule_interval` (using CRON expression or `timedelta` object).
 * (17.3k) https://github.com/celery/celery Distributed Task Queue http://celeryproject.org/
-* (14.6k) https://github.com/spotify/luigi build complex pipelines of (long-running) batch jobs like Hadoop jobs, Spark jobs, dumping data to/from databases, running machine learning algorithms, Python snippet etc. The dependency graph is specified within Python (not XML or JSON).
+* (14.6k) https://github.com/spotify/luigi build complex pipelines of (long-running) batch jobs like Hadoop jobs, Spark jobs, dumping data to/from databases, running machine learning algorithms, Python snippet etc. "Luigi is based on pipelines of tasks that share input and output information and is target-based".
+  * Dependencies. "Luigi doesn’t use DAGs. Instead, Luigi refers to "tasks" and "targets." Targets are both the results of a task and the input for the next task." "Luigi has 3 steps to construct a pipeline: `requires()` defines the dependencies between the tasks, `output()` defines the the target of the task, `run()` defines the computation performed by each task"
+  * Scheduling. "Luigi ... has a central scheduler *and* custom calendar schedule capabilities, providing users with lots of flexibility" (in contrast to Airflow).
 * (6.4k) https://github.com/prefecthq/prefect
 * (3.7k) https://github.com/azkaban/azkaban Azkaban workflow manager
 * Oozie 
 * (911) https://github.com/d6t/d6tflow Python library for building highly effective data science workflows (on top of luigi)
+
+ML workflow, pipelines, training, deployment etc.
+* (10.3k) https://github.com/kubeflow/kubeflow Machine Learning Toolkit for Kubernetes
+* (7.5k) https://github.com/cortexlabs/cortex Cloud native model serving infrastructure. Cortex is an open source platform for deploying machine learning models as production web services
+
+Data science support and tooling
+* (4.7k) https://github.com/drivendata/cookiecutter-data-science A logical, reasonably standardized, but flexible project structure for doing and sharing data science work
 
 ETL:
 * (1.7k) https://github.com/mara/data-integration A lightweight opinionated ETL framework, halfway between plain scripts and Apache Airflow
@@ -222,13 +253,6 @@ Stream processing:
 
 Web scrapping
 * (40.7k) https://github.com/scrapy/scrapy - create spiders bots that scan website pages and collect structured data
-
-Machine learning training, deployment etc.
-* (10.3k) https://github.com/kubeflow/kubeflow Machine Learning Toolkit for Kubernetes
-* (7.5k) https://github.com/cortexlabs/cortex Cloud native model serving infrastructure. Cortex is an open source platform for deploying machine learning models as production web services
-
-Data science support and tooling
-* (4.7k) https://github.com/drivendata/cookiecutter-data-science A logical, reasonably standardized, but flexible project structure for doing and sharing data science work
 
 ### Data labeling
 
