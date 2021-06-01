@@ -533,6 +533,7 @@ Logging, tracing, monitoring
 * (8.4k) https://github.com/dask/dask Parallel computing with task scheduling
 * (6.3k) https://github.com/vaexio/vaex Out-of-Core DataFrames for Python, ML, visualize and explore big tabular data at a billion rows per second
 * (3.5k) https://github.com/arrayfire/arrayfire a general purpose GPU library
+* ()1.8k) https://github.com/pola-rs/polars Fast multi-threaded DataFrame library in Rust and Python
 * (1.2k) https://github.com/dask/distributed distributed dask
 * https://github.com/databricks/spark-sklearn [ARCHIVED] Scikit-learn integration package for Spark
 
