@@ -240,6 +240,7 @@ General purpose workflow management systems:
 ML workflow, pipelines, training, deployment etc.
 * (10.3k) https://github.com/kubeflow/kubeflow Machine Learning Toolkit for Kubernetes
 * (7.5k) https://github.com/cortexlabs/cortex Cloud native model serving infrastructure. Cortex is an open source platform for deploying machine learning models as production web services
+* (4.4k) https://github.com/Netflix/metaflow Build and manage real-life data science projects with ease
 
 Data science support and tooling
 * (4.7k) https://github.com/drivendata/cookiecutter-data-science A logical, reasonably standardized, but flexible project structure for doing and sharing data science work
