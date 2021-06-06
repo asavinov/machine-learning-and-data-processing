@@ -247,9 +247,11 @@ Data science support and tooling
 
 ETL:
 * (1.7k) https://github.com/mara/data-integration A lightweight opinionated ETL framework, halfway between plain scripts and Apache Airflow
-* (1.4k) https://github.com/python-bonobo/bonobo https://www.bonobo-project.org/ Transform Load Extract for Python 3.5+ 
+* (1.4k) https://github.com/python-bonobo/bonobo Extract Transform Load for Python 3.5+ https://www.bonobo-project.org/
 
 Stream processing:
+* (5.6k) https://github.com/robinhood/faust Stream processing library, porting the ideas from Kafka Streams to Python
+* (2.5k) https://github.com/airbnb/streamalert StreamAlert is a serverless, realtime data analysis framework which empowers you to ingest, analyze, and alert on data from any environment, using datasources and alerting logic you define
 * (1.6k) https://github.com/nerevu/riko A Python stream processing engine modeled after Yahoo! Pipes
 
 Web scrapping
