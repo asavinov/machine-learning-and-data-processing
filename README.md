@@ -172,18 +172,19 @@ TBD
 ### AutoML
 
 AutoML libs:
-* (9.7k) https://github.com/microsoft/nni An open source AutoML toolkit for automate machine learning lifecycle, including feature engineering, neural architecture search, model compression and hyper-parameter tuning
-* (8k) https://github.com/EpistasisLab/tpot A Python Automated Machine Learning tool that optimizes machine learning pipelines using genetic programming
+* (9.8k) https://github.com/microsoft/nni An open source AutoML toolkit for automate machine learning lifecycle, including feature engineering, neural architecture search, model compression and hyper-parameter tuning
+* (8.1k) https://github.com/EpistasisLab/tpot A Python Automated Machine Learning tool that optimizes machine learning pipelines using genetic programming
 * (8k) https://github.com/keras-team/autokeras AutoML library for deep learning
-* (5.4k) https://github.com/automl/auto-sklearn Automated Machine Learning with scikit-learn
+* (5.5k) https://github.com/automl/auto-sklearn Automated Machine Learning with scikit-learn
 * (4.3k) https://github.com/google/automl Google Brain AutoML
 * (3.3k) https://github.com/tensorflow/adanet Fast and flexible AutoML with learning guarantees
-* (3.7k) https://github.com/mindsdb/mindsdb Machine Learning in one line of code
-* (3.5k) https://github.com/pycaret/pycaret An open source, low-code machine learning library in Python
+* (3.8k) https://github.com/mindsdb/mindsdb Machine Learning in one line of code
+* (3.6k) https://github.com/pycaret/pycaret An open source, low-code machine learning library in Python
 * (1.2k) https://github.com/AxeldeRomblay/MLBox MLBox is a powerful Automated Machine Learning python library
-* (466) https://github.com/automl/HpBandSter a distributed Hyperband implementation on Steroids
-* (28) https://github.com/shankarpandala/lazypredict Lazy Predict help build a lot of basic models without much code and helps understand which models works better without any parameter tuning
-* (280) https://github.com/automl/autoweka
+* (469) https://github.com/automl/HpBandSter a distributed Hyperband implementation on Steroids
+* (313) https://github.com/microsoft/FLAML A fast and lightweight AutoML library
+* (281) https://github.com/automl/autoweka
+* (38) https://github.com/shankarpandala/lazypredict Lazy Predict help build a lot of basic models without much code and helps understand which models works better without any parameter tuning
 
 Systems and companies:
 * DataRobot
