@@ -233,7 +233,7 @@ General purpose workflow management systems:
 * (14.6k) https://github.com/spotify/luigi build complex pipelines of (long-running) batch jobs like Hadoop jobs, Spark jobs, dumping data to/from databases, running machine learning algorithms, Python snippet etc. "Luigi is based on pipelines of tasks that share input and output information and is target-based".
   * Dependencies. "Luigi doesn’t use DAGs. Instead, Luigi refers to "tasks" and "targets." Targets are both the results of a task and the input for the next task." "Luigi has 3 steps to construct a pipeline: `requires()` defines the dependencies between the tasks, `output()` defines the the target of the task, `run()` defines the computation performed by each task"
   * Scheduling. "Luigi ... has a central scheduler *and* custom calendar schedule capabilities, providing users with lots of flexibility" (in contrast to Airflow).
-* (6.4k) https://github.com/prefecthq/prefect
+* (6.4k) https://github.com/prefecthq/prefect The easiest way to automate your data
 * (3.7k) https://github.com/azkaban/azkaban Azkaban workflow manager
 * Oozie 
 * (911) https://github.com/d6t/d6tflow Python library for building highly effective data science workflows (on top of luigi)
@@ -245,10 +245,13 @@ ML workflow, pipelines, training, deployment etc.
 
 Data science support and tooling
 * (4.7k) https://github.com/drivendata/cookiecutter-data-science A logical, reasonably standardized, but flexible project structure for doing and sharing data science work
+* (1.1k) https://github.com/orchest/orchest A new kind of IDE for Data Science
 
-ETL:
+ETL and data integration:
+* (3.2k) https://github.com/airbytehq/airbyte Airbyte is an open-source EL(T) platform that helps you replicate your data in your warehouses, lakes and databases
 * (1.7k) https://github.com/mara/data-integration A lightweight opinionated ETL framework, halfway between plain scripts and Apache Airflow
 * (1.4k) https://github.com/python-bonobo/bonobo Extract Transform Load for Python 3.5+ https://www.bonobo-project.org/
+* https://gitlab.com/meltano/meltano Meltano: ELT for the DataOps era — Open source, self-hosted, CLI-first, debuggable, and extensible. Embraces Singer and its library of connectors, and leverages dbt for transformation https://meltano.com/
 
 Stream processing:
 * (5.6k) https://github.com/robinhood/faust Stream processing library, porting the ideas from Kafka Streams to Python
