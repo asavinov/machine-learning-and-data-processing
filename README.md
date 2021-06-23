@@ -17,6 +17,7 @@ Books and articles:
 Implementations:
 * (12.8k) https://github.com/facebook/prophet Prophet https://facebook.github.io/prophet/ 
 * (1.3k) https://github.com/ourownstory/neural_prophet Neural Network based Time-Series model
+* (1k) https://github.com/facebookresearch/Kats Kats, a kit to analyze time series data, a lightweight, easy-to-use, generalizable, and extendable framework to perform time series analysis, from understanding the key statistics and characteristics, detecting change points and anomalies, to forecasting future trends.
 * (4k) https://github.com/alan-turing-institute/sktime A unified toolbox for machine learning with time series
 * (893) https://github.com/alkaline-ml/pmdarima A statistical library designed to fill the void in Python's time series analysis capabilities, including the equivalent of R's auto.arima function
 
