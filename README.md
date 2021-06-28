@@ -236,8 +236,10 @@ General purpose workflow management systems:
   * Scheduling. "Luigi ... has a central scheduler *and* custom calendar schedule capabilities, providing users with lots of flexibility" (in contrast to Airflow).
 * (6.4k) https://github.com/prefecthq/prefect The easiest way to automate your data
 * (3.7k) https://github.com/azkaban/azkaban Azkaban workflow manager
+* (3.5k) https://github.com/dagster-io/dagster A data orchestrator for machine learning, analytics, and ETL
 * Oozie 
 * (911) https://github.com/d6t/d6tflow Python library for building highly effective data science workflows (on top of luigi)
+* (858) https://github.com/grailbio/reflow A language and runtime for distributed, incremental data processing in the cloud
 
 ML workflow, pipelines, training, deployment etc.
 * (10.3k) https://github.com/kubeflow/kubeflow Machine Learning Toolkit for Kubernetes
