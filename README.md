@@ -115,6 +115,17 @@ Visualizations and dashboards:
 * https://github.com/lebigot/uncertainties Transparent calculations with uncertainties on the quantities involved (aka "error propagation"); calculation of derivatives
 * https://github.com/facebookarchive/bootstrapped Generate bootstrapped confidence intervals for A/B testing in Python
 
+### AI, data mining, machine learning algorithms
+
+Resources:
+* https://github.com/astorfi/TensorFlow-World-Resources
+* https://github.com/astorfi/Deep-Learning-World
+
+Algorithms:
+* XGBoost, CatBoost, LightGBM
+* (8.1k) https://github.com/spotify/annoy Approximate Nearest Neighbors in C++/Python optimized for memory usage and loading/saving to disk
+  * USP: ability to use static files as indexes, share index across process, that is, in-memory and efficient and multi-process
+  * e.g, music recommendation in Spotify, similar images (for labeling etc.)  
 
 ## Data and knowledge engineering
 
@@ -193,18 +204,6 @@ Systems and companies:
 * H2O.ai Dreverless AI
 * OneClick.ai
 
-### AI, data mining, machine learning algorithms
-
-Resources:
-* https://github.com/astorfi/TensorFlow-World-Resources
-* https://github.com/astorfi/Deep-Learning-World
-
-Algorithms:
-* XGBoost, CatBoost, LightGBM
-* (8.1k) https://github.com/spotify/annoy Approximate Nearest Neighbors in C++/Python optimized for memory usage and loading/saving to disk
-  * USP: ability to use static files as indexes, share index across process, that is, in-memory and efficient and multi-process
-  * e.g, music recommendation in Spotify, similar images (for labeling etc.)  
-
 ### Workflow/job management, Data integration, ETL, web scrapping, orchestration
 
 For workflows, it is important how the following concepts are implemented:
@@ -243,6 +242,7 @@ General purpose workflow management systems:
 
 ML workflow, pipelines, training, deployment etc.
 * (10.3k) https://github.com/kubeflow/kubeflow Machine Learning Toolkit for Kubernetes
+* (9.8k) https://github.com/mlflow/mlflow Open source platform for the machine learning lifecycle
 * (7.5k) https://github.com/cortexlabs/cortex Cloud native model serving infrastructure. Cortex is an open source platform for deploying machine learning models as production web services
 * (4.4k) https://github.com/Netflix/metaflow Build and manage real-life data science projects with ease
 
