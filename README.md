@@ -51,11 +51,12 @@ Pitch trackers:
 Other
 * (575) https://github.com/AddictedCS/soundfingerprinting audio acoustic fingerprinting fingerprinting in C# (advertising etc. - not speech)
 
-Books:
+Books and other resources:
 * Think DSP: Digital Signal Processing in Python: http://greenteapress.com/thinkdsp/thinkdsp.pdf
   * Include a Python lib and examples in Python: https://github.com/AllenDowney/ThinkDSP 
 * Digital Signal Processing: https://dsp-nbsphinx.readthedocs.io/en/nbsphinx-experiment/index.html
 * Sound Processing with Short Time Fourier Transform: https://www.numerical-tours.com/matlab/audio_1_processing/
+* Theory of digital signal processing (DSP): signals, filtration (IIR, FIR, CIC, MAF), transforms (FFT, DFT, Hilbert, Z-transform) etc. https://github.com/capitanov/dsp-theory
 
 ### Text NLP
 
@@ -532,7 +533,7 @@ Service registry and orchestrator:
 Logging, tracing, monitoring
 * https://github.com/uber-go/zap fast logging library for Go Zap
 * http://opentracing.io/ - OpenTracing standard
-* CNCF Jaeger, a Distributed Tracing System  https://github.com/jaegertracing/jaeger https://uber.github.io/jaeger/ https://jaegertracing.io/
+* https://github.com/jaegertracing/jaeger CNCF Jaeger, a Distributed Tracing System  https://uber.github.io/jaeger/ https://jaegertracing.io/
 * https://github.com/lightstep/lightstep-tracer-go Lightstep 
 * https://github.com/sourcegraph/appdash Application tracing system for Go, based on Google's Dapper. (OpenTracing) https://sourcegraph.com
 * https://github.com/netdata/netdata Real-time performance monitoring, done right! https://www.netdata.cloud. Discussion: https://news.ycombinator.com/item?id=26886792
