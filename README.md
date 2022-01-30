@@ -19,6 +19,7 @@ Implementations:
 * (1.3k) https://github.com/ourownstory/neural_prophet Neural Network based Time-Series model
 * (1k) https://github.com/facebookresearch/Kats Kats, a kit to analyze time series data, a lightweight, easy-to-use, generalizable, and extendable framework to perform time series analysis, from understanding the key statistics and characteristics, detecting change points and anomalies, to forecasting future trends.
 * (4k) https://github.com/alan-turing-institute/sktime A unified toolbox for machine learning with time series
+* (3.5k) https://github.com/unit8co/darts A python library for easy manipulation and forecasting of time series
 * (893) https://github.com/alkaline-ml/pmdarima A statistical library designed to fill the void in Python's time series analysis capabilities, including the equivalent of R's auto.arima function
 
 Stock price forecasting:
@@ -50,6 +51,7 @@ Pitch trackers:
 
 Other
 * (575) https://github.com/AddictedCS/soundfingerprinting audio acoustic fingerprinting fingerprinting in C# (advertising etc. - not speech)
+* (220) https://github.com/OverLordGoldDragon/ssqueezepy Synchrosqueezing, wavelet transforms, and time-frequency analysis in Python
 
 Books and other resources:
 * Think DSP: Digital Signal Processing in Python: http://greenteapress.com/thinkdsp/thinkdsp.pdf
@@ -68,6 +70,7 @@ Books and other resources:
 * (10.4k) https://github.com/zalandoresearch/flair A very simple framework for state-of-the-art Natural Language Processing (NLP)
 * (4.6k) https://github.com/wireservice/csvkit
 * (5.2k) https://github.com/deepmipt/DeepPavlov - building end-to-end dialog systems and training chatbots
+  * https://github.com/deepmipt/dream DeepPavlov Dream is a free, open-source Multiskill AI Assistant built using DeepPavlov Conversational AI Stack
 
 Lists:
 * https://github.com/keon/awesome-nlp
@@ -116,6 +119,11 @@ Visualizations and dashboards:
 * https://github.com/lebigot/uncertainties Transparent calculations with uncertainties on the quantities involved (aka "error propagation"); calculation of derivatives
 * https://github.com/facebookarchive/bootstrapped Generate bootstrapped confidence intervals for A/B testing in Python
 
+### Reinforcement learning
+
+* https://github.com/tensorflow/agents TF-Agents: A reliable, scalable and easy to use TensorFlow library for Contextual Bandits and Reinforcement Learning
+  * https://github.com/tensorflow/agents/blob/master/docs/tutorials/0_intro_rl.ipynb
+
 ### AI, data mining, machine learning algorithms
 
 Resources:
@@ -136,6 +144,7 @@ Time series:
 * (5.7k) https://github.com/blue-yonder/tsfresh
 * (2.2k) https://github.com/bukosabino/ta Technical Analysis Library using Pandas (Python)
 * (421) https://github.com/benfulcher/hctsa Highly comparative time-series analysis code repository
+* (279) https://github.com/cerlymarco/tsmoothie A python library for time-series smoothing and outlier detection in a vectorized way
 * (101) https://github.com/chlubba/catch22 catch-22: CAnonical Time-series CHaracteristics
 
 Feature extraction:
@@ -279,14 +288,15 @@ Web scrapping
 * Matplotlib http://matplotlib.org/
 * Bokeh http://bokeh.pydata.org/en/latest/ The Bokeh library creates interactive and scalable visualizations in a browser using JavaScript widgets.
 * Seaborn http://stanford.edu/~mwaskom/software/seaborn/# https://seaborn.pydata.org/ - a higher-level API based on the matplotlib library. It contains more suitable default settings for processing charts. Also, there is a rich gallery of visualizations. 
-* Lightning http://lightning-viz.org/
+* https://github.com/lightning-viz/lightning http://lightning-viz.org/ Data Visualization Server. Lightning provides API-based access to reproducible web visualizations
 * Plotly https://plot.ly/
 * Pandas built-in plotting http://pandas.pydata.org/pandas-docs/stable/visualization.html
-* HoloViews http://holoviews.org/
-* VisPy http://vispy.org/
-* pygg http://www.github.com/sirrice/pygg
-* Altair https://github.com/altair-viz/altair
-* hypertools: https://github.com/ContextLab/hypertools
+* https://github.com/holoviz/holoviews With Holoviews, your data visualizes itself
+* https://github.com/vispy/vispy VisPy: interactive scientific visualization in Python. VisPy is a high-performance interactive 2D/3D data visualization library leveraging the computational power of modern Graphics Processing Units (GPUs) through the OpenGL library to display very large datasets
+* http://www.github.com/sirrice/pygg ggplot2 syntax in python. Actually wrapper around Wickham's ggplot2 in R
+* https://github.com/altair-viz/altair Declarative statistical visualization library for Python
+* https://github.com/ContextLab/hypertools A Python toolbox for gaining geometric insights into high-dimensional data
+* https://github.com/DistrictDataLabs/yellowbrick Visual analysis and diagnostic tools to facilitate machine learning model selection
 
 Dashboards:
 * Grafana (time series) https://grafana.com/  https://github.com/grafana/grafana 
