@@ -174,6 +174,7 @@ Lists:
 ### Feature stores
 
 * (1.9k) https://github.com/feast-dev/feast Feature Store for Machine Learning https://feast.dev
+* (1.4k) https://github.com/feathr-ai/feathr An Enterprise-Grade, High Performance Feature Store 
 * (492) https://github.com/logicalclocks/hopsworks Hopsworks - Data-Intensive AI platform with a Feature Store
 
 Resources:
@@ -247,6 +248,7 @@ General purpose workflow management systems:
 * (3.7k) https://github.com/azkaban/azkaban Azkaban workflow manager
 * (3.5k) https://github.com/dagster-io/dagster A data orchestrator for machine learning, analytics, and ETL
 * Oozie 
+* (2.9k) https://github.com/ploomber/ploomber The fastest way to build data pipelines. Develop iteratively, deploy anywhere
 * (911) https://github.com/d6t/d6tflow Python library for building highly effective data science workflows (on top of luigi)
 * (858) https://github.com/grailbio/reflow A language and runtime for distributed, incremental data processing in the cloud
 
@@ -297,6 +299,7 @@ Web scrapping
 * https://github.com/altair-viz/altair Declarative statistical visualization library for Python
 * https://github.com/ContextLab/hypertools A Python toolbox for gaining geometric insights into high-dimensional data
 * https://github.com/DistrictDataLabs/yellowbrick Visual analysis and diagnostic tools to facilitate machine learning model selection
+* https://github.com/AutoViML/AutoViz Automatically Visualize any dataset, any size with a single line of code. Created by Ram Seshadri. Collaborators Welcome. Permission Granted upon Request
 
 Dashboards:
 * Grafana (time series) https://grafana.com/  https://github.com/grafana/grafana 
@@ -556,6 +559,7 @@ Logging, tracing, monitoring
 * (3.5k) https://github.com/arrayfire/arrayfire a general purpose GPU library
 * ()1.8k) https://github.com/pola-rs/polars Fast multi-threaded DataFrame library in Rust and Python
 * (1.2k) https://github.com/dask/distributed distributed dask
+* (1.1k) https://github.com/fugue-project/fugue A unified interface for distributed computing. Fugue executes SQL, Python, and Pandas code on Spark, Dask and Ray without any rewrites
 * https://github.com/databricks/spark-sklearn [ARCHIVED] Scikit-learn integration package for Spark
 
 Resources:
