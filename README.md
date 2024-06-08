@@ -556,6 +556,7 @@ Logging, tracing, monitoring
 * (16.1k) https://github.com/ray-project/ray A system for parallel and distributed Python that unifies the ML ecosystem (similar to Dask)
 * (8.4k) https://github.com/dask/dask Parallel computing with task scheduling
 * (6.3k) https://github.com/vaexio/vaex Out-of-Core DataFrames for Python, ML, visualize and explore big tabular data at a billion rows per second
+* (7.6k) https://github.com/rapidsai/cudf cuDF - GPU DataFrame Library
 * (3.5k) https://github.com/arrayfire/arrayfire a general purpose GPU library
 * ()1.8k) https://github.com/pola-rs/polars Fast multi-threaded DataFrame library in Rust and Python
 * (1.2k) https://github.com/dask/distributed distributed dask
@@ -565,6 +566,12 @@ Logging, tracing, monitoring
 Resources:
 * https://chryswoods.com/parallel_python/index.html - Parallel Programming with Python
 
+
+### GPU/ML hosting and clouds
+
+* https://vast.ai/
+* https://www.runpod.io/
+* https://clore.ai/
 
 ## Other resources
 
