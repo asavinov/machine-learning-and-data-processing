@@ -17,14 +17,16 @@ Books and articles:
 Implementations:
 * ![stars](https://img.shields.io/github/stars/facebook/prophet) 
 https://github.com/facebook/prophet Prophet https://facebook.github.io/prophet/ 
-* ![stars](https://img.shields.io/github/stars/ourownstory/neural_prophet) 
-https://github.com/ourownstory/neural_prophet Neural Network based Time-Series model
-* ![stars](https://img.shields.io/github/stars/facebookresearch/Kats) 
-https://github.com/facebookresearch/Kats Kats, a kit to analyze time series data, a lightweight, easy-to-use, generalizable, and extendable framework to perform time series analysis, from understanding the key statistics and characteristics, detecting change points and anomalies, to forecasting future trends.
-* ![stars](https://img.shields.io/github/stars/alan-turing-institute/sktime) 
-https://github.com/alan-turing-institute/sktime A unified toolbox for machine learning with time series
 * ![stars](https://img.shields.io/github/stars/unit8co/darts) 
 https://github.com/unit8co/darts A python library for easy manipulation and forecasting of time series
+* ![stars](https://img.shields.io/github/stars/alan-turing-institute/sktime) 
+https://github.com/alan-turing-institute/sktime A unified toolbox for machine learning with time series
+* ![stars](https://img.shields.io/github/stars/thuml/Time-Series-Library) 
+https://github.com/thuml/Time-Series-Library A Library for Advanced Deep Time Series Models
+* ![stars](https://img.shields.io/github/stars/facebookresearch/Kats) 
+https://github.com/facebookresearch/Kats Kats, a kit to analyze time series data, a lightweight, easy-to-use, generalizable, and extendable framework to perform time series analysis, from understanding the key statistics and characteristics, detecting change points and anomalies, to forecasting future trends.
+* ![stars](https://img.shields.io/github/stars/ourownstory/neural_prophet) 
+https://github.com/ourownstory/neural_prophet Neural Network based Time-Series model
 * ![stars](https://img.shields.io/github/stars/alkaline-ml/pmdarima) 
 https://github.com/alkaline-ml/pmdarima A statistical library designed to fill the void in Python's time series analysis capabilities, including the equivalent of R's auto.arima function
 
@@ -98,14 +100,14 @@ Books and other resources:
 
 ### Text NLP
 
-* ![stars](https://img.shields.io/github/stars/facebookresearch/fastText) 
-https://github.com/facebookresearch/fastText - Library for fast text representation and classification
-* ![stars](https://img.shields.io/github/stars/explosion/spaCy) 
-https://github.com/explosion/spaCy (in Cython) -  Industrial-strength Natural Language Processing (NLP) with Python and Cython https://spacy.io
-* ![stars](https://img.shields.io/github/stars/RaRe-Technologies/gensim) 
-https://github.com/RaRe-Technologies/gensim Topic Modelling for Humans, robust semantic analysis, topic modeling and vector-space modeling
 * ![stars](https://img.shields.io/github/stars/huggingface/pytorch-transformers) 
 https://github.com/huggingface/pytorch-transformers A library of state-of-the-art pretrained models for Natural Language Processing (NLP)
+* ![stars](https://img.shields.io/github/stars/explosion/spaCy) 
+https://github.com/explosion/spaCy (in Cython) -  Industrial-strength Natural Language Processing (NLP) with Python and Cython https://spacy.io
+* ![stars](https://img.shields.io/github/stars/facebookresearch/fastText) 
+https://github.com/facebookresearch/fastText - Library for fast text representation and classification
+* ![stars](https://img.shields.io/github/stars/RaRe-Technologies/gensim) 
+https://github.com/RaRe-Technologies/gensim Topic Modelling for Humans, robust semantic analysis, topic modeling and vector-space modeling
 * ![stars](https://img.shields.io/github/stars/nltk/nltk) 
 https://github.com/nltk/nltk - NLTK
 * ![stars](https://img.shields.io/github/stars/zalandoresearch/flair) 
@@ -123,10 +125,10 @@ https://github.com/brianspiering/awesome-dl4nlp
 
 ### Video
 
-* ![stars](https://img.shields.io/github/stars/Zulko/moviepy) 
-https://github.com/Zulko/moviepy - Video editing with Python
 * ![stars](https://img.shields.io/github/stars/iperov/DeepFaceLab) 
 https://github.com/iperov/DeepFaceLab DeepFaceLab is a tool that utilizes machine learning to replace faces in videos.
+* ![stars](https://img.shields.io/github/stars/Zulko/moviepy) 
+https://github.com/Zulko/moviepy - Video editing with Python
 
 ### Images
 
@@ -142,10 +144,10 @@ YOLO v4: https://github.com/AlexeyAB/darknet
 https://github.com/jantic/DeOldify A Deep Learning based project for colorizing and restoring old images (and video!)
 * ![stars](https://img.shields.io/github/stars/microsoft/Bringing-Old-Photos-Back-to-Life) 
 https://github.com/microsoft/Bringing-Old-Photos-Back-to-Life Bringing Old Photo Back to Life (CVPR 2020 oral)
-* ![stars](https://img.shields.io/github/stars/scikit-image/scikit-image) 
-https://github.com/scikit-image/scikit-image Image processing in Python
 * ![stars](https://img.shields.io/github/stars/python-pillow/Pillow) 
 https://github.com/python-pillow/Pillow PIL is the Python Imaging Library
+* ![stars](https://img.shields.io/github/stars/scikit-image/scikit-image) 
+https://github.com/scikit-image/scikit-image Image processing in Python
 * ![stars](https://img.shields.io/github/stars/symisc/sod) 
 https://github.com/symisc/sod An Embedded, Modern Computer Vision & Machine Learning Library
 * DeepDetect https://github.com/beniz/deepdetect/tree/master/demo/objsearch http://www.deepdetect.com/
@@ -183,8 +185,7 @@ https://github.com/facebookarchive/bootstrapped Generate bootstrapped confidence
 
 * ![stars](https://img.shields.io/github/stars/tensorflow/agents) 
 https://github.com/tensorflow/agents TF-Agents: A reliable, scalable and easy to use TensorFlow library for Contextual Bandits and Reinforcement Learning
-* ![stars](https://img.shields.io/github/stars/tensorflow/agents) 
-https://github.com/tensorflow/agents/blob/master/docs/tutorials/0_intro_rl.ipynb
+  * https://github.com/tensorflow/agents/blob/master/docs/tutorials/0_intro_rl.ipynb
 
 ### AI, data mining, machine learning algorithms
 
@@ -238,10 +239,10 @@ https://github.com/EpistasisLab/scikit-rebate - A scikit-learn-compatible Python
 https://github.com/abhayspawar/featexp eature exploration for supervised learning
 
 Hyper-parameter optimization:
-* ![stars](https://img.shields.io/github/stars/EpistasisLab/tpot) 
-https://github.com/EpistasisLab/tpot Python Automated Machine Learning tool that optimizes machine learning pipelines using genetic programming
 * ![stars](https://img.shields.io/github/stars/pfnet/optuna) 
 https://github.com/pfnet/optuna - A hyperparameter optimization framework https://optuna.org
+* ![stars](https://img.shields.io/github/stars/EpistasisLab/tpot) 
+https://github.com/EpistasisLab/tpot Python Automated Machine Learning tool that optimizes machine learning pipelines using genetic programming
 * ![stars](https://img.shields.io/github/stars/instacart/lore) 
 https://github.com/instacart/lore Lore makes machine learning approachable for Software Engineers and maintainable for Machine Learning Researchers
 * ![stars](https://img.shields.io/github/stars/ClimbsRocks/auto_ml) 
@@ -642,10 +643,12 @@ https://github.com/h5py/h5py HDF5 for Python -- The h5py package is a Pythonic i
 ### Authentication, Authorization, Security
 
 Identity and Access Management
-* ![stars](https://img.shields.io/github/stars/ory/hydra) 
-https://github.com/ory/hydra OAuth2 Server and OpenID Certified™ OpenID Connect Provider written in Go - cloud native, security-first, open source API security for your infrastructure. SDKs for any language
 * ![stars](https://img.shields.io/github/stars/keycloak/keycloak) 
 https://github.com/keycloak/keycloak
+* ![stars](https://img.shields.io/github/stars/ory/hydra) 
+https://github.com/ory/hydra OAuth2 Server and OpenID Certified™ OpenID Connect Provider written in Go - cloud native, security-first, open source API security for your infrastructure. SDKs for any language
+* ![stars](https://img.shields.io/github/stars/goauthentik/authentik) 
+https://github.com/goauthentik/authentik The authentication glue you need
 * ![stars](https://img.shields.io/github/stars/jpadilla/pyjwt) 
 https://github.com/jpadilla/pyjwt JSON Web Token implementation in Python
 * ![stars](https://img.shields.io/github/stars/apache/shiro) 
@@ -763,6 +766,7 @@ Resources:
   * http://www.cs.cornell.edu/jeh/book.pdf - Foundations of Data Science
   * https://otexts.org/fpp2/ - Forecasting: Principles and Practice
   * ![stars](https://img.shields.io/github/stars/christophM/interpretable-ml-book) https://github.com/christophM/interpretable-ml-book - Interpretable machine learning
+  * ![stars](https://img.shields.io/github/stars/stas00/ml-engineering) https://github.com/stas00/ml-engineering Machine Learning Engineering Open Book
 
 ### Python:
 
