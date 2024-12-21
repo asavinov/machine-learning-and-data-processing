@@ -80,6 +80,18 @@ https://github.com/Camb-ai/MARS5-TTS MARS5 speech model (TTS) from CAMB.AI
 https://github.com/DigitalPhonetics/IMS-Toucan#Toucan Multilingual and Controllable Text-to-Speech Toolkit of the Speech and Language Technologies Group at the University of Stuttgart
 * ![stars](https://img.shields.io/github/stars/jishengpeng/WavTokenizer) 
 https://github.com/jishengpeng/WavTokenizer SOTA discrete acoustic codec models with 40 tokens per second for audio language modeling. https://huggingface.co/novateur/WavTokenizer Article: https://arxiv.org/abs/2408.16532 Demo: https://wavtokenizer.github.io
+* ![stars](https://img.shields.io/github/stars/SWivid/F5-TTS) 
+https://github.com/SWivid/F5-TTS Official code for "F5-TTS: A Fairytaler that Fakes Fluent and Faithful Speech with Flow Matching" https://swivid.github.io/F5-TTS/
+
+Speech recognition:
+
+* ![stars](https://img.shields.io/github/stars/wenet-e2e/wenet)
+https://github.com/wenet-e2e/wenet Production First and Production Ready End-to-End Speech Recognition Toolkit
+* ![stars](https://img.shields.io/github/stars/pyannote/pyannote-audio)
+https://github.com/pyannote/pyannote-audio Neural building blocks for speaker diarization: speech activity detection, speaker change detection, overlapped speech detection, speaker embedding 
+
+
+https://github.com/wenet-e2e/wenet
 
 Pitch trackers:
 * ![stars](https://img.shields.io/github/stars/marl/crepe) 
@@ -136,6 +148,8 @@ https://github.com/Zulko/moviepy - Video editing with Python
 
 * ![stars](https://img.shields.io/github/stars/opencv/opencv) 
 https://github.com/opencv/opencv Open Source Computer Vision Library
+* ![stars](https://img.shields.io/github/stars/facebookresearch/sam2) 
+https://github.com/facebookresearch/sam2 The repository provides code for running inference with the Meta Segment Anything Model 2 (SAM 2), links for downloading the trained model checkpoints, and example notebooks that show how to use the model
 * ![stars](https://img.shields.io/github/stars/AlexeyAB/darknet) 
 YOLO v4: https://github.com/AlexeyAB/darknet
   * https://pjreddie.com/darknet/yolo/
