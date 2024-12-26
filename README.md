@@ -66,8 +66,12 @@ https://github.com/bmcfee/resampy Efficient sample rate conversion in python
 Text to speech (TTS)
 * ![stars](https://img.shields.io/github/stars/openai/whisper) 
 https://github.com/openai/whisper Robust Speech Recognition via Large-Scale Weak Supervision
+* ![stars](https://img.shields.io/github/stars/fishaudio/fish-speech) 
+https://github.com/fishaudio/fish-speech SOTA Open Source TTS. Fish Speech V1.5 is a leading text-to-speech (TTS) model trained on more than 1 million hours of audio data in multiple languages. Model: https://huggingface.co/fishaudio/fish-speech-1.5 Demo: https://fish.audio/ Documentation: https://speech.fish.audio/
 * ![stars](https://img.shields.io/github/stars/espnet/espnet) 
 https://github.com/espnet/espnet End-to-End Speech Processing Toolkit 
+* ![stars](https://img.shields.io/github/stars/SWivid/F5-TTS) 
+https://github.com/SWivid/F5-TTS Official code for "F5-TTS: A Fairytaler that Fakes Fluent and Faithful Speech with Flow Matching" https://swivid.github.io/F5-TTS/
 * ![stars](https://img.shields.io/github/stars/facebookresearch/wav2letter) 
 https://github.com/facebookresearch/wav2letter Automatic Speech Recognition Toolkit
 * ![stars](https://img.shields.io/github/stars/yl4579/StyleTTS2) 
@@ -80,8 +84,6 @@ https://github.com/Camb-ai/MARS5-TTS MARS5 speech model (TTS) from CAMB.AI
 https://github.com/DigitalPhonetics/IMS-Toucan#Toucan Multilingual and Controllable Text-to-Speech Toolkit of the Speech and Language Technologies Group at the University of Stuttgart
 * ![stars](https://img.shields.io/github/stars/jishengpeng/WavTokenizer) 
 https://github.com/jishengpeng/WavTokenizer SOTA discrete acoustic codec models with 40 tokens per second for audio language modeling. https://huggingface.co/novateur/WavTokenizer Article: https://arxiv.org/abs/2408.16532 Demo: https://wavtokenizer.github.io
-* ![stars](https://img.shields.io/github/stars/SWivid/F5-TTS) 
-https://github.com/SWivid/F5-TTS Official code for "F5-TTS: A Fairytaler that Fakes Fluent and Faithful Speech with Flow Matching" https://swivid.github.io/F5-TTS/
 
 Speech recognition:
 
