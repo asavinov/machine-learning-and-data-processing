@@ -84,6 +84,8 @@ https://github.com/Camb-ai/MARS5-TTS MARS5 speech model (TTS) from CAMB.AI
 https://github.com/DigitalPhonetics/IMS-Toucan#Toucan Multilingual and Controllable Text-to-Speech Toolkit of the Speech and Language Technologies Group at the University of Stuttgart
 * ![stars](https://img.shields.io/github/stars/jishengpeng/WavTokenizer) 
 https://github.com/jishengpeng/WavTokenizer SOTA discrete acoustic codec models with 40 tokens per second for audio language modeling. https://huggingface.co/novateur/WavTokenizer Article: https://arxiv.org/abs/2408.16532 Demo: https://wavtokenizer.github.io
+* ![stars](https://img.shields.io/github/stars/hexgrad/kokoro) 
+https://github.com/hexgrad/kokoro An inference library for Kokoro-82M. Kokoro is an open-weight TTS model with 82 million parameters https://huggingface.co/hexgrad/Kokoro-82M Demo (works in browser): https://huggingface.co/spaces/webml-community/kokoro-webgpu
 
 Speech recognition:
 
