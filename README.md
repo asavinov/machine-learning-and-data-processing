@@ -25,6 +25,10 @@ https://github.com/alan-turing-institute/sktime A unified toolbox for machine le
 https://github.com/thuml/Time-Series-Library A Library for Advanced Deep Time Series Models
 * ![stars](https://img.shields.io/github/stars/facebookresearch/Kats) 
 https://github.com/facebookresearch/Kats Kats, a kit to analyze time series data, a lightweight, easy-to-use, generalizable, and extendable framework to perform time series analysis, from understanding the key statistics and characteristics, detecting change points and anomalies, to forecasting future trends.
+* ![stars](https://img.shields.io/github/stars/Nixtla/statsforecast) 
+https://github.com/Nixtla/neuralforecast Lightning fast forecasting with statistical and econometric models
+* ![stars](https://img.shields.io/github/stars/Nixtla/statsforecast) 
+https://github.com/Nixtla/neuralforecast Scalable and user friendly neural forecasting algorithms
 * ![stars](https://img.shields.io/github/stars/ourownstory/neural_prophet) 
 https://github.com/ourownstory/neural_prophet Neural Network based Time-Series model
 * ![stars](https://img.shields.io/github/stars/alkaline-ml/pmdarima) 
