@@ -70,6 +70,11 @@ https://github.com/bmcfee/resampy Efficient sample rate conversion in python
 Text to speech (TTS)
 * ![stars](https://img.shields.io/github/stars/openai/whisper) 
 https://github.com/openai/whisper Robust Speech Recognition via Large-Scale Weak Supervision
+
+* ![stars](https://img.shields.io/github/stars/microsoft/VibeVoice)
+https://github.com/microsoft/VibeVoice Frontier Open-Source Text-to-Speech https://huggingface.co/collections/microsoft/vibevoice-68a2ef24a875c44be47b034f
+* ![stars](https://img.shields.io/github/stars/FunAudioLLM/CosyVoice)
+https://github.com/FunAudioLLM/CosyVoice Multi-lingual large voice generation model, providing inference, training and deployment full-stack ability. Models: https://huggingface.co/FunAudioLLM/models Demo: https://funaudiollm.github.io/cosyvoice3/
 * ![stars](https://img.shields.io/github/stars/fishaudio/fish-speech) 
 https://github.com/fishaudio/fish-speech SOTA Open Source TTS. Fish Speech V1.5 is a leading text-to-speech (TTS) model trained on more than 1 million hours of audio data in multiple languages. Model: https://huggingface.co/fishaudio/fish-speech-1.5 Demo: https://fish.audio/ Documentation: https://speech.fish.audio/
 * ![stars](https://img.shields.io/github/stars/espnet/espnet) 
@@ -90,8 +95,6 @@ https://github.com/DigitalPhonetics/IMS-Toucan#Toucan Multilingual and Controlla
 https://github.com/jishengpeng/WavTokenizer SOTA discrete acoustic codec models with 40 tokens per second for audio language modeling. https://huggingface.co/novateur/WavTokenizer Article: https://arxiv.org/abs/2408.16532 Demo: https://wavtokenizer.github.io
 * ![stars](https://img.shields.io/github/stars/hexgrad/kokoro) 
 https://github.com/hexgrad/kokoro An inference library for Kokoro-82M. Kokoro is an open-weight TTS model with 82 million parameters https://huggingface.co/hexgrad/Kokoro-82M Demo (works in browser): https://huggingface.co/spaces/webml-community/kokoro-webgpu
-* ![stars](https://img.shields.io/github/stars/microsoft/VibeVoice)
-https://github.com/microsoft/VibeVoice Frontier Open-Source Text-to-Speech https://huggingface.co/collections/microsoft/vibevoice-68a2ef24a875c44be47b034f
 
 Speech recognition:
 
