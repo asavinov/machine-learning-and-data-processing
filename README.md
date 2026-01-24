@@ -70,7 +70,6 @@ https://github.com/bmcfee/resampy Efficient sample rate conversion in python
 Text to speech (TTS)
 * ![stars](https://img.shields.io/github/stars/openai/whisper) 
 https://github.com/openai/whisper Robust Speech Recognition via Large-Scale Weak Supervision
-
 * ![stars](https://img.shields.io/github/stars/microsoft/VibeVoice)
 https://github.com/microsoft/VibeVoice Frontier Open-Source Text-to-Speech https://huggingface.co/collections/microsoft/vibevoice-68a2ef24a875c44be47b034f
 * ![stars](https://img.shields.io/github/stars/FunAudioLLM/CosyVoice)
@@ -87,6 +86,12 @@ https://github.com/facebookresearch/wav2letter Automatic Speech Recognition Tool
 https://github.com/yl4579/StyleTTS2 StyleTTS 2: Towards Human-Level Text-to-Speech through Style Diffusion and Adversarial Training with Large Speech Language Models 
 * ![stars](https://img.shields.io/github/stars/huggingface/parler-tts) 
 https://github.com/huggingface/parler-tts Inference and training library for high-quality TTS models
+* ![stars](https://img.shields.io/github/stars/QwenLM/Qwen3-TTS)
+https://github.com/QwenLM/Qwen3-TTS Qwen3-TTS is an open-source series of TTS models developed by the Qwen team at Alibaba Cloud, supporting stable, expressive, and streaming speech generation, free-form voice design, and vivid voice cloning.
+Hugging Face: https://huggingface.co/collections/Qwen/qwen3-tts
+Demo (HF): https://huggingface.co/spaces/Qwen/Qwen3-TTS
+Blog: https://qwen.ai/blog?id=qwen3tts-0115
+Paper: https://github.com/QwenLM/Qwen3-TTS/blob/main/assets/Qwen3_TTS.pdf
 * ![stars](https://img.shields.io/github/stars/Camb-ai/MARS5-TTS) 
 https://github.com/Camb-ai/MARS5-TTS MARS5 speech model (TTS) from CAMB.AI 
 * ![stars](https://img.shields.io/github/stars/DigitalPhonetics/IMS-Toucan#Toucan) 
