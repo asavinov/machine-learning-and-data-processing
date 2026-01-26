@@ -70,22 +70,24 @@ https://github.com/bmcfee/resampy Efficient sample rate conversion in python
 Text to speech (TTS)
 * ![stars](https://img.shields.io/github/stars/openai/whisper) 
 https://github.com/openai/whisper Robust Speech Recognition via Large-Scale Weak Supervision
+* ![stars](https://img.shields.io/github/stars/fishaudio/fish-speech) 
+https://github.com/fishaudio/fish-speech SOTA Open Source TTS. Fish Speech V1.5 is a leading text-to-speech (TTS) model trained on more than 1 million hours of audio data in multiple languages. Model: https://huggingface.co/fishaudio/fish-speech-1.5 Demo: https://fish.audio/ Documentation: https://speech.fish.audio/
 * ![stars](https://img.shields.io/github/stars/microsoft/VibeVoice)
 https://github.com/microsoft/VibeVoice Frontier Open-Source Text-to-Speech https://huggingface.co/collections/microsoft/vibevoice-68a2ef24a875c44be47b034f
 * ![stars](https://img.shields.io/github/stars/FunAudioLLM/CosyVoice)
 https://github.com/FunAudioLLM/CosyVoice Multi-lingual large voice generation model, providing inference, training and deployment full-stack ability. Models: https://huggingface.co/FunAudioLLM/models Demo: https://funaudiollm.github.io/cosyvoice3/
-* ![stars](https://img.shields.io/github/stars/fishaudio/fish-speech) 
-https://github.com/fishaudio/fish-speech SOTA Open Source TTS. Fish Speech V1.5 is a leading text-to-speech (TTS) model trained on more than 1 million hours of audio data in multiple languages. Model: https://huggingface.co/fishaudio/fish-speech-1.5 Demo: https://fish.audio/ Documentation: https://speech.fish.audio/
-* ![stars](https://img.shields.io/github/stars/espnet/espnet) 
-https://github.com/espnet/espnet End-to-End Speech Processing Toolkit 
 * ![stars](https://img.shields.io/github/stars/SWivid/F5-TTS) 
 https://github.com/SWivid/F5-TTS Official code for "F5-TTS: A Fairytaler that Fakes Fluent and Faithful Speech with Flow Matching" https://swivid.github.io/F5-TTS/
+* ![stars](https://img.shields.io/github/stars/espnet/espnet) 
+https://github.com/espnet/espnet End-to-End Speech Processing Toolkit 
 * ![stars](https://img.shields.io/github/stars/facebookresearch/wav2letter) 
 https://github.com/facebookresearch/wav2letter Automatic Speech Recognition Toolkit
 * ![stars](https://img.shields.io/github/stars/yl4579/StyleTTS2) 
 https://github.com/yl4579/StyleTTS2 StyleTTS 2: Towards Human-Level Text-to-Speech through Style Diffusion and Adversarial Training with Large Speech Language Models 
 * ![stars](https://img.shields.io/github/stars/huggingface/parler-tts) 
 https://github.com/huggingface/parler-tts Inference and training library for high-quality TTS models
+* ![stars](https://img.shields.io/github/stars/hexgrad/kokoro) 
+https://github.com/hexgrad/kokoro An inference library for Kokoro-82M. Kokoro is an open-weight TTS model with 82 million parameters https://huggingface.co/hexgrad/Kokoro-82M Demo (works in browser): https://huggingface.co/spaces/webml-community/kokoro-webgpu
 * ![stars](https://img.shields.io/github/stars/QwenLM/Qwen3-TTS)
 https://github.com/QwenLM/Qwen3-TTS Qwen3-TTS is an open-source series of TTS models developed by the Qwen team at Alibaba Cloud, supporting stable, expressive, and streaming speech generation, free-form voice design, and vivid voice cloning.
 Hugging Face: https://huggingface.co/collections/Qwen/qwen3-tts
@@ -100,19 +102,14 @@ https://github.com/DigitalPhonetics/IMS-Toucan#Toucan Multilingual and Controlla
 https://github.com/kyutai-labs/pocket-tts A TTS that fits in your CPU (and pocket) https://huggingface.co/kyutai/pocket-tts Only English
 * ![stars](https://img.shields.io/github/stars/jishengpeng/WavTokenizer) 
 https://github.com/jishengpeng/WavTokenizer SOTA discrete acoustic codec models with 40 tokens per second for audio language modeling. https://huggingface.co/novateur/WavTokenizer Article: https://arxiv.org/abs/2408.16532 Demo: https://wavtokenizer.github.io
-* ![stars](https://img.shields.io/github/stars/hexgrad/kokoro) 
-https://github.com/hexgrad/kokoro An inference library for Kokoro-82M. Kokoro is an open-weight TTS model with 82 million parameters https://huggingface.co/hexgrad/Kokoro-82M Demo (works in browser): https://huggingface.co/spaces/webml-community/kokoro-webgpu
 * https://huggingface.co/Supertone/supertonic-2 Supertonic 2 — Lightning Fast, On-Device TTS, Multilingual TTS
 
-Speech recognition:
+Speech recognition (ASR):
 
 * ![stars](https://img.shields.io/github/stars/wenet-e2e/wenet)
 https://github.com/wenet-e2e/wenet Production First and Production Ready End-to-End Speech Recognition Toolkit
 * ![stars](https://img.shields.io/github/stars/pyannote/pyannote-audio)
 https://github.com/pyannote/pyannote-audio Neural building blocks for speaker diarization: speech activity detection, speaker change detection, overlapped speech detection, speaker embedding 
-
-
-https://github.com/wenet-e2e/wenet
 
 Pitch trackers:
 * ![stars](https://img.shields.io/github/stars/marl/crepe) 
@@ -135,8 +132,6 @@ Books and other resources:
 
 ### Text NLP
 
-* ![stars](https://img.shields.io/github/stars/huggingface/pytorch-transformers) 
-https://github.com/huggingface/pytorch-transformers A library of state-of-the-art pretrained models for Natural Language Processing (NLP)
 * ![stars](https://img.shields.io/github/stars/explosion/spaCy) 
 https://github.com/explosion/spaCy (in Cython) -  Industrial-strength Natural Language Processing (NLP) with Python and Cython https://spacy.io
 * ![stars](https://img.shields.io/github/stars/facebookresearch/fastText) 
@@ -157,6 +152,15 @@ https://github.com/keon/awesome-nlp
 https://github.com/astorfi/Deep-Learning-NLP
 * ![stars](https://img.shields.io/github/stars/brianspiering/awesome-dl4nlp) 
 https://github.com/brianspiering/awesome-dl4nlp
+
+### LLMs
+
+* ![stars](https://img.shields.io/github/stars/huggingface/pytorch-transformers) 
+https://github.com/huggingface/pytorch-transformers A library of state-of-the-art pretrained models for Natural Language Processing (NLP)
+* ![stars](https://img.shields.io/github/stars/VectifyAI/PageIndex) 
+https://github.com/VectifyAI/PageIndex PageIndex: Document Index for Vectorless, Reasoning-based RAG
+* ![stars](https://img.shields.io/github/stars/p-e-w/heretic) 
+https://github.com/p-e-w/heretic Fully automatic censorship removal for language models
 
 ### Video
 
