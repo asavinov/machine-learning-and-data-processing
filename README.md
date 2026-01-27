@@ -110,6 +110,9 @@ Speech recognition (ASR):
 https://github.com/wenet-e2e/wenet Production First and Production Ready End-to-End Speech Recognition Toolkit
 * ![stars](https://img.shields.io/github/stars/pyannote/pyannote-audio)
 https://github.com/pyannote/pyannote-audio Neural building blocks for speaker diarization: speech activity detection, speaker change detection, overlapped speech detection, speaker embedding 
+* ![stars](https://img.shields.io/github/stars/FunAudioLLM/Fun-ASR)
+https://github.com/FunAudioLLM/Fun-ASR Fun-ASR is an end-to-end speech recognition large model launched by Tongyi Lab
+Models: https://huggingface.co/FunAudioLLM/models
 
 Pitch trackers:
 * ![stars](https://img.shields.io/github/stars/marl/crepe) 
@@ -157,6 +160,8 @@ https://github.com/brianspiering/awesome-dl4nlp
 
 * ![stars](https://img.shields.io/github/stars/huggingface/pytorch-transformers) 
 https://github.com/huggingface/pytorch-transformers A library of state-of-the-art pretrained models for Natural Language Processing (NLP)
+* ![stars](https://img.shields.io/github/stars/unslothai/unsloth) 
+https://github.com/unslothai/unsloth Fine-tuning & Reinforcement Learning for LLMs. 🦥 Train OpenAI gpt-oss, DeepSeek, Qwen, Llama, Gemma, TTS 2x faster with 70% less VRAM
 * ![stars](https://img.shields.io/github/stars/VectifyAI/PageIndex) 
 https://github.com/VectifyAI/PageIndex PageIndex: Document Index for Vectorless, Reasoning-based RAG
 * ![stars](https://img.shields.io/github/stars/p-e-w/heretic) 
