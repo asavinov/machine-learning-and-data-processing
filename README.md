@@ -170,12 +170,14 @@ https://github.com/p-e-w/heretic Fully automatic censorship removal for language
 
 ### AI Agents, AI workflows, Automation
 
-* ![stars](https://img.shields.io/github/openclaw/openclaw) 
+* ![stars](https://img.shields.io/github/stars/openclaw/openclaw) 
 https://github.com/openclaw/openclaw Your own personal AI assistant. Any OS. Any Platform. The lobster way
-* ![stars](https://img.shields.io/github/langchain-ai/langchain) 
+* ![stars](https://img.shields.io/github/stars/langchain-ai/langchain) 
 https://github.com/langchain-ai/langchain The platform for reliable agents
-* ![stars](https://img.shields.io/github/Comfy-Org/ComfyUI) 
+* ![stars](https://img.shields.io/github/stars/Comfy-Org/ComfyUI) 
 https://github.com/Comfy-Org/ComfyUI The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface
+* ![stars](https://img.shields.io/github/stars/langchain-ai/langgraph) 
+https://github.com/langchain-ai/langgraph Build resilient language agents as graphs
 * ![stars](https://img.shields.io/github/stars/gradio-app/daggr) 
 https://github.com/gradio-app/daggr Chain apps and models to build robust AI workflows. DAG-based Gradio workflows! HF: https://huggingface.co/blog/daggr Examples: https://huggingface.co/collections/ysharma/daggr-hf-spaces
 
