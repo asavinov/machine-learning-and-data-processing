@@ -68,8 +68,6 @@ https://github.com/keunwoochoi/kapre keras audio preprocessor that let you calcu
 https://github.com/bmcfee/resampy Efficient sample rate conversion in python
 
 Text to speech (TTS)
-* ![stars](https://img.shields.io/github/stars/openai/whisper) 
-https://github.com/openai/whisper Robust Speech Recognition via Large-Scale Weak Supervision
 * ![stars](https://img.shields.io/github/stars/fishaudio/fish-speech) 
 https://github.com/fishaudio/fish-speech SOTA Open Source TTS. Fish Speech V1.5 is a leading text-to-speech (TTS) model trained on more than 1 million hours of audio data in multiple languages. Model: https://huggingface.co/fishaudio/fish-speech-1.5 Demo: https://fish.audio/ Documentation: https://speech.fish.audio/
 * ![stars](https://img.shields.io/github/stars/microsoft/VibeVoice)
@@ -80,8 +78,6 @@ https://github.com/FunAudioLLM/CosyVoice Multi-lingual large voice generation mo
 https://github.com/SWivid/F5-TTS Official code for "F5-TTS: A Fairytaler that Fakes Fluent and Faithful Speech with Flow Matching" https://swivid.github.io/F5-TTS/
 * ![stars](https://img.shields.io/github/stars/espnet/espnet) 
 https://github.com/espnet/espnet End-to-End Speech Processing Toolkit 
-* ![stars](https://img.shields.io/github/stars/facebookresearch/wav2letter) 
-https://github.com/facebookresearch/wav2letter Automatic Speech Recognition Toolkit
 * ![stars](https://img.shields.io/github/stars/yl4579/StyleTTS2) 
 https://github.com/yl4579/StyleTTS2 StyleTTS 2: Towards Human-Level Text-to-Speech through Style Diffusion and Adversarial Training with Large Speech Language Models 
 * ![stars](https://img.shields.io/github/stars/huggingface/parler-tts) 
@@ -106,6 +102,10 @@ https://github.com/jishengpeng/WavTokenizer SOTA discrete acoustic codec models 
 
 Speech recognition (ASR):
 
+* ![stars](https://img.shields.io/github/stars/openai/whisper) 
+https://github.com/openai/whisper Robust Speech Recognition via Large-Scale Weak Supervision
+* ![stars](https://img.shields.io/github/stars/facebookresearch/wav2letter) 
+https://github.com/facebookresearch/wav2letter Automatic Speech Recognition Toolkit
 * ![stars](https://img.shields.io/github/stars/wenet-e2e/wenet)
 https://github.com/wenet-e2e/wenet Production First and Production Ready End-to-End Speech Recognition Toolkit
 * ![stars](https://img.shields.io/github/stars/pyannote/pyannote-audio)
@@ -113,6 +113,11 @@ https://github.com/pyannote/pyannote-audio Neural building blocks for speaker di
 * ![stars](https://img.shields.io/github/stars/FunAudioLLM/Fun-ASR)
 https://github.com/FunAudioLLM/Fun-ASR Fun-ASR is an end-to-end speech recognition large model launched by Tongyi Lab
 Models: https://huggingface.co/FunAudioLLM/models
+* https://huggingface.co/mistralai/Voxtral-Mini-4B-Realtime-2602 Voxtral Mini 4B Realtime 2602. Voxtral Mini 4B Realtime 2602 is a multilingual, realtime speech-transcription model and among the first open-source solutions to achieve accuracy comparable to offline systems with a delay of <500ms. It supports 13 languages and outperforms existing open-source baselines across a range of tasks, making it ideal for applications like voice assistants and live subtitling.
+* https://huggingface.co/nvidia/personaplex-7b-v1 PersonaPlex: Voice and role control for full duplex conversational speech models
+* ![stars](https://img.shields.io/github/stars/QwenLM/Qwen3-ASR) 
+https://github.com/QwenLM/Qwen3-ASR Qwen3-ASR is an open-source series of ASR models developed by the Qwen team at Alibaba Cloud, supporting stable multilingual speech/music/song recognition, language detection and timestamp prediction
+Hugging Face: https://huggingface.co/Qwen/Qwen3-ASR-1.7B
 
 Pitch trackers:
 * ![stars](https://img.shields.io/github/stars/marl/crepe) 
