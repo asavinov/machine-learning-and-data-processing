@@ -177,6 +177,8 @@ https://github.com/p-e-w/heretic Fully automatic censorship removal for language
 
 * ![stars](https://img.shields.io/github/stars/openclaw/openclaw) 
 https://github.com/openclaw/openclaw Your own personal AI assistant. Any OS. Any Platform. The lobster way
+* ![stars](https://img.shields.io/github/stars/sipeed/picoclaw) 
+https://github.com/sipeed/picoclaw PicoClaw: Ultra-Efficient AI Assistant in Go. PicoClaw is an ultra-lightweight personal AI Assistant inspired by nanobot, refactored from the ground up in Go through a self-bootstrapping process, where the AI agent itself drove the entire architectural migration and code optimization
 * ![stars](https://img.shields.io/github/stars/langchain-ai/langchain) 
 https://github.com/langchain-ai/langchain The platform for reliable agents
 * ![stars](https://img.shields.io/github/stars/Comfy-Org/ComfyUI) 
@@ -185,6 +187,7 @@ https://github.com/Comfy-Org/ComfyUI The most powerful and modular diffusion mod
 https://github.com/langchain-ai/langgraph Build resilient language agents as graphs
 * ![stars](https://img.shields.io/github/stars/gradio-app/daggr) 
 https://github.com/gradio-app/daggr Chain apps and models to build robust AI workflows. DAG-based Gradio workflows! HF: https://huggingface.co/blog/daggr Examples: https://huggingface.co/collections/ysharma/daggr-hf-spaces
+
 
 ### Video
 
