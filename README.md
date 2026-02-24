@@ -175,6 +175,8 @@ https://github.com/p-e-w/heretic Fully automatic censorship removal for language
 
 ### AI Agents, AI workflows, Automation
 
+* ![stars](https://img.shields.io/github/stars/n8n-io/n8n) 
+https://github.com/n8n-io/n8n Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations
 * ![stars](https://img.shields.io/github/stars/openclaw/openclaw) 
 https://github.com/openclaw/openclaw Your own personal AI assistant. Any OS. Any Platform. The lobster way
 * ![stars](https://img.shields.io/github/stars/sipeed/picoclaw) 
