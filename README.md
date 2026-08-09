@@ -104,6 +104,8 @@ Speech recognition (ASR):
 
 * ![stars](https://img.shields.io/github/stars/openai/whisper) 
 https://github.com/openai/whisper Robust Speech Recognition via Large-Scale Weak Supervision
+* ![stars](https://img.shields.io/github/stars/ggerganov/whisper.cpp) 
+https://github.com/ggerganov/whisper.cpp Port of OpenAI's Whisper model in C/C++
 * ![stars](https://img.shields.io/github/stars/facebookresearch/wav2letter) 
 https://github.com/facebookresearch/wav2letter Automatic Speech Recognition Toolkit
 * ![stars](https://img.shields.io/github/stars/wenet-e2e/wenet)
