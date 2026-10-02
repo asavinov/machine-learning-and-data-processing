@@ -185,6 +185,8 @@ https://github.com/openclaw/openclaw Your own personal AI assistant. Any OS. Any
 https://github.com/sipeed/picoclaw PicoClaw: Ultra-Efficient AI Assistant in Go. PicoClaw is an ultra-lightweight personal AI Assistant inspired by nanobot, refactored from the ground up in Go through a self-bootstrapping process, where the AI agent itself drove the entire architectural migration and code optimization
 * ![stars](https://img.shields.io/github/stars/langchain-ai/langchain) 
 https://github.com/langchain-ai/langchain The platform for reliable agents
+* ![stars](https://img.shields.io/github/stars/crewAIInc/crewAI) 
+https://github.com/crewAIInc/crewAI Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.
 * ![stars](https://img.shields.io/github/stars/microsoft/autogen) 
 https://github.com/microsoft/autogen A programming framework for agentic AI
 * ![stars](https://img.shields.io/github/stars/Comfy-Org/ComfyUI) 
